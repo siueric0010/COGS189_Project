@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.1),
-    on February 24, 2020, at 14:56
+    on February 24, 2020, at 14:42
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -168,41 +168,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
-
-# Initialize components for Routine "blank5s"
-blank5sClock = core.Clock()
-text_4 = visual.TextStim(win=win, name='text_4',
-    text='Break Time',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "imageStudy"
-imageStudyClock = core.Clock()
-image_5 = visual.ImageStim(
-    win=win,
-    name='image_5', 
-    image='sin', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.65),
-    color=[1,1,1], colorSpace='rgb', opacity=1,
-    flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -234,13 +199,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -272,13 +230,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -310,13 +261,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -348,13 +292,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -386,13 +323,37 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
+
+# Initialize components for Routine "blank_5"
+blank_5Clock = core.Clock()
+text_2 = visual.TextStim(win=win, name='text_2',
+    text=None,
     font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+
+# Initialize components for Routine "imageStudy"
+imageStudyClock = core.Clock()
+image_5 = visual.ImageStim(
+    win=win,
+    name='image_5', 
+    image='sin', mask=None,
+    ori=0, pos=(0, 0), size=(0.5, 0.65),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -425,13 +386,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -463,13 +417,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -501,13 +448,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -539,13 +479,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -577,13 +510,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -615,13 +541,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -653,13 +572,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -691,13 +603,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -729,13 +634,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -767,13 +665,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -806,13 +697,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -844,13 +728,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -882,13 +759,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -920,13 +790,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -958,13 +821,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -996,13 +852,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1034,13 +883,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1072,13 +914,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1110,13 +945,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1148,13 +976,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1187,13 +1008,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1225,13 +1039,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1263,13 +1070,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1301,13 +1101,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1339,13 +1132,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1377,13 +1163,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1415,13 +1194,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1453,13 +1225,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1491,13 +1256,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1529,13 +1287,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1568,13 +1319,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1606,13 +1350,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1644,13 +1381,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1682,13 +1412,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1720,13 +1443,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1758,13 +1474,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1796,13 +1505,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1834,13 +1536,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1872,13 +1567,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -1910,13 +1598,6 @@ image_5 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
-text_9 = visual.TextStim(win=win, name='text_9',
-    text='Break',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "blank_5"
 blank_5Clock = core.Clock()
@@ -2427,7 +2108,6 @@ for thisComponent in blank5sComponents:
         thisComponent.setAutoDraw(False)
 thisExp.addData('text_4.started', text_4.tStartRefresh)
 thisExp.addData('text_4.stopped', text_4.tStopRefresh)
-
 now = time.time()
 # set up handler to look after randomisation of conditions etc
 testTrials = data.TrialHandler(nReps=1, method='random', 
@@ -2450,10 +2130,11 @@ for thisTestTrial in testTrials:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -2468,7 +2149,7 @@ for thisTestTrial in testTrials:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -2477,7 +2158,7 @@ for thisTestTrial in testTrials:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -2485,28 +2166,13 @@ for thisTestTrial in testTrials:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -2531,12 +2197,78 @@ for thisTestTrial in testTrials:
             thisComponent.setAutoDraw(False)
     testTrials.addData('image_5.started', image_5.tStartRefresh)
     testTrials.addData('image_5.stopped', image_5.tStopRefresh)
-    testTrials.addData('text_9.started', text_9.tStartRefresh)
-    testTrials.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
+    
+    # ------Prepare to start Routine "blank_5"-------
+    continueRoutine = True
+    routineTimer.add(0.500000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blank_5Components = [text_2]
+    for thisComponent in blank_5Components:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    
+    # -------Run Routine "blank_5"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blank_5Clock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *text_2* updates
+        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            text_2.frameNStart = frameN  # exact frame index
+            text_2.tStart = t  # local t and not account for scr refresh
+            text_2.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
+            text_2.setAutoDraw(True)
+        if text_2.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
+                # keep track of stop time/frame for later
+                text_2.tStop = t  # not accounting for scr refresh
+                text_2.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
+                text_2.setAutoDraw(False)
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blank_5Components:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    print("Before ending routine Blank_5:", time.time() - now)
+    # -------Ending Routine "blank_5"-------
+    for thisComponent in blank_5Components:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    testTrials.addData('text_2.started', text_2.tStartRefresh)
+    testTrials.addData('text_2.stopped', text_2.tStopRefresh)
     thisExp.nextEntry()
-    print(now - time.time())
+    print("After Ending Routine Blank_5:", time.time() - now)
     
 # completed 1 repeats of 'testTrials'
 
@@ -2631,10 +2363,11 @@ for thisTestTrial_2 in TestTrials_2:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -2649,7 +2382,7 @@ for thisTestTrial_2 in TestTrials_2:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -2658,7 +2391,7 @@ for thisTestTrial_2 in TestTrials_2:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -2666,28 +2399,13 @@ for thisTestTrial_2 in TestTrials_2:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -2712,10 +2430,6 @@ for thisTestTrial_2 in TestTrials_2:
             thisComponent.setAutoDraw(False)
     TestTrials_2.addData('image_5.started', image_5.tStartRefresh)
     TestTrials_2.addData('image_5.stopped', image_5.tStopRefresh)
-    TestTrials_2.addData('text_9.started', text_9.tStartRefresh)
-    TestTrials_2.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -2880,10 +2594,11 @@ for thisTestTrial_4 in testTrials_4:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -2898,7 +2613,7 @@ for thisTestTrial_4 in testTrials_4:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -2907,7 +2622,7 @@ for thisTestTrial_4 in testTrials_4:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -2915,28 +2630,13 @@ for thisTestTrial_4 in testTrials_4:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -2961,10 +2661,6 @@ for thisTestTrial_4 in testTrials_4:
             thisComponent.setAutoDraw(False)
     testTrials_4.addData('image_5.started', image_5.tStartRefresh)
     testTrials_4.addData('image_5.stopped', image_5.tStopRefresh)
-    testTrials_4.addData('text_9.started', text_9.tStartRefresh)
-    testTrials_4.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -3129,10 +2825,11 @@ for thisTeatRrial_3 in TeatRrials_3:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -3147,7 +2844,7 @@ for thisTeatRrial_3 in TeatRrials_3:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -3156,7 +2853,7 @@ for thisTeatRrial_3 in TeatRrials_3:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -3164,28 +2861,13 @@ for thisTeatRrial_3 in TeatRrials_3:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -3210,10 +2892,6 @@ for thisTeatRrial_3 in TeatRrials_3:
             thisComponent.setAutoDraw(False)
     TeatRrials_3.addData('image_5.started', image_5.tStartRefresh)
     TeatRrials_3.addData('image_5.stopped', image_5.tStopRefresh)
-    TeatRrials_3.addData('text_9.started', text_9.tStartRefresh)
-    TeatRrials_3.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -3378,10 +3056,11 @@ for thisTestTrial_5 in testTrials_5:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -3396,7 +3075,7 @@ for thisTestTrial_5 in testTrials_5:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -3405,7 +3084,7 @@ for thisTestTrial_5 in testTrials_5:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -3413,28 +3092,13 @@ for thisTestTrial_5 in testTrials_5:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -3459,10 +3123,6 @@ for thisTestTrial_5 in testTrials_5:
             thisComponent.setAutoDraw(False)
     testTrials_5.addData('image_5.started', image_5.tStartRefresh)
     testTrials_5.addData('image_5.stopped', image_5.tStopRefresh)
-    testTrials_5.addData('text_9.started', text_9.tStartRefresh)
-    testTrials_5.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -3627,10 +3287,11 @@ for thisTestTrial_6 in testTrials_6:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -3645,7 +3306,7 @@ for thisTestTrial_6 in testTrials_6:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -3654,7 +3315,7 @@ for thisTestTrial_6 in testTrials_6:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -3662,28 +3323,13 @@ for thisTestTrial_6 in testTrials_6:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -3708,10 +3354,6 @@ for thisTestTrial_6 in testTrials_6:
             thisComponent.setAutoDraw(False)
     testTrials_6.addData('image_5.started', image_5.tStartRefresh)
     testTrials_6.addData('image_5.stopped', image_5.tStopRefresh)
-    testTrials_6.addData('text_9.started', text_9.tStartRefresh)
-    testTrials_6.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -3876,10 +3518,11 @@ for thisTestTrial_7 in testTrials_7:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -3894,7 +3537,7 @@ for thisTestTrial_7 in testTrials_7:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -3903,7 +3546,7 @@ for thisTestTrial_7 in testTrials_7:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -3911,28 +3554,13 @@ for thisTestTrial_7 in testTrials_7:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -3957,10 +3585,6 @@ for thisTestTrial_7 in testTrials_7:
             thisComponent.setAutoDraw(False)
     testTrials_7.addData('image_5.started', image_5.tStartRefresh)
     testTrials_7.addData('image_5.stopped', image_5.tStopRefresh)
-    testTrials_7.addData('text_9.started', text_9.tStartRefresh)
-    testTrials_7.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -4152,10 +3776,11 @@ for thisTrial in trial:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -4170,7 +3795,7 @@ for thisTrial in trial:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -4179,7 +3804,7 @@ for thisTrial in trial:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -4187,28 +3812,13 @@ for thisTrial in trial:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -4233,10 +3843,6 @@ for thisTrial in trial:
             thisComponent.setAutoDraw(False)
     trial.addData('image_5.started', image_5.tStartRefresh)
     trial.addData('image_5.stopped', image_5.tStopRefresh)
-    trial.addData('text_9.started', text_9.tStartRefresh)
-    trial.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -4401,10 +4007,11 @@ for thisTrial_2 in trial_2:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -4419,7 +4026,7 @@ for thisTrial_2 in trial_2:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -4428,7 +4035,7 @@ for thisTrial_2 in trial_2:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -4436,28 +4043,13 @@ for thisTrial_2 in trial_2:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -4482,10 +4074,6 @@ for thisTrial_2 in trial_2:
             thisComponent.setAutoDraw(False)
     trial_2.addData('image_5.started', image_5.tStartRefresh)
     trial_2.addData('image_5.stopped', image_5.tStopRefresh)
-    trial_2.addData('text_9.started', text_9.tStartRefresh)
-    trial_2.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -4650,10 +4238,11 @@ for thisTrial_3 in trials_3:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -4668,7 +4257,7 @@ for thisTrial_3 in trials_3:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -4677,7 +4266,7 @@ for thisTrial_3 in trials_3:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -4685,28 +4274,13 @@ for thisTrial_3 in trials_3:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -4731,10 +4305,6 @@ for thisTrial_3 in trials_3:
             thisComponent.setAutoDraw(False)
     trials_3.addData('image_5.started', image_5.tStartRefresh)
     trials_3.addData('image_5.stopped', image_5.tStopRefresh)
-    trials_3.addData('text_9.started', text_9.tStartRefresh)
-    trials_3.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -4918,10 +4488,11 @@ for thisThreeHappyblock in threeHappyblocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -4936,7 +4507,7 @@ for thisThreeHappyblock in threeHappyblocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -4945,7 +4516,7 @@ for thisThreeHappyblock in threeHappyblocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -4953,28 +4524,13 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -4999,10 +4555,6 @@ for thisThreeHappyblock in threeHappyblocks:
                 thisComponent.setAutoDraw(False)
         trials_4.addData('image_5.started', image_5.tStartRefresh)
         trials_4.addData('image_5.stopped', image_5.tStopRefresh)
-        trials_4.addData('text_9.started', text_9.tStartRefresh)
-        trials_4.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -5167,10 +4719,11 @@ for thisThreeHappyblock in threeHappyblocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -5185,7 +4738,7 @@ for thisThreeHappyblock in threeHappyblocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -5194,7 +4747,7 @@ for thisThreeHappyblock in threeHappyblocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -5202,28 +4755,13 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -5248,10 +4786,6 @@ for thisThreeHappyblock in threeHappyblocks:
                 thisComponent.setAutoDraw(False)
         trials_5.addData('image_5.started', image_5.tStartRefresh)
         trials_5.addData('image_5.stopped', image_5.tStopRefresh)
-        trials_5.addData('text_9.started', text_9.tStartRefresh)
-        trials_5.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -5416,10 +4950,11 @@ for thisThreeHappyblock in threeHappyblocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -5434,7 +4969,7 @@ for thisThreeHappyblock in threeHappyblocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -5443,7 +4978,7 @@ for thisThreeHappyblock in threeHappyblocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -5451,28 +4986,13 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -5497,10 +5017,6 @@ for thisThreeHappyblock in threeHappyblocks:
                 thisComponent.setAutoDraw(False)
         trials_6.addData('image_5.started', image_5.tStartRefresh)
         trials_6.addData('image_5.stopped', image_5.tStopRefresh)
-        trials_6.addData('text_9.started', text_9.tStartRefresh)
-        trials_6.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -5665,10 +5181,11 @@ for thisThreeHappyblock in threeHappyblocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -5683,7 +5200,7 @@ for thisThreeHappyblock in threeHappyblocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -5692,7 +5209,7 @@ for thisThreeHappyblock in threeHappyblocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -5700,28 +5217,13 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -5746,10 +5248,6 @@ for thisThreeHappyblock in threeHappyblocks:
                 thisComponent.setAutoDraw(False)
         trials_7.addData('image_5.started', image_5.tStartRefresh)
         trials_7.addData('image_5.stopped', image_5.tStopRefresh)
-        trials_7.addData('text_9.started', text_9.tStartRefresh)
-        trials_7.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -5914,10 +5412,11 @@ for thisThreeHappyblock in threeHappyblocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -5932,7 +5431,7 @@ for thisThreeHappyblock in threeHappyblocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -5941,7 +5440,7 @@ for thisThreeHappyblock in threeHappyblocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -5949,28 +5448,13 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -5995,10 +5479,6 @@ for thisThreeHappyblock in threeHappyblocks:
                 thisComponent.setAutoDraw(False)
         trials_8.addData('image_5.started', image_5.tStartRefresh)
         trials_8.addData('image_5.stopped', image_5.tStopRefresh)
-        trials_8.addData('text_9.started', text_9.tStartRefresh)
-        trials_8.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -6163,10 +5643,11 @@ for thisThreeHappyblock in threeHappyblocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -6181,7 +5662,7 @@ for thisThreeHappyblock in threeHappyblocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -6190,7 +5671,7 @@ for thisThreeHappyblock in threeHappyblocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -6198,28 +5679,13 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -6244,10 +5710,6 @@ for thisThreeHappyblock in threeHappyblocks:
                 thisComponent.setAutoDraw(False)
         trials_9.addData('image_5.started', image_5.tStartRefresh)
         trials_9.addData('image_5.stopped', image_5.tStopRefresh)
-        trials_9.addData('text_9.started', text_9.tStartRefresh)
-        trials_9.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -6412,10 +5874,11 @@ for thisThreeHappyblock in threeHappyblocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -6430,7 +5893,7 @@ for thisThreeHappyblock in threeHappyblocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -6439,7 +5902,7 @@ for thisThreeHappyblock in threeHappyblocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -6447,28 +5910,13 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -6493,10 +5941,6 @@ for thisThreeHappyblock in threeHappyblocks:
                 thisComponent.setAutoDraw(False)
         trials_10.addData('image_5.started', image_5.tStartRefresh)
         trials_10.addData('image_5.stopped', image_5.tStopRefresh)
-        trials_10.addData('text_9.started', text_9.tStartRefresh)
-        trials_10.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -6692,10 +6136,11 @@ for thisSadTrials_ in sadTrials_:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -6710,7 +6155,7 @@ for thisSadTrials_ in sadTrials_:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -6719,7 +6164,7 @@ for thisSadTrials_ in sadTrials_:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -6727,28 +6172,13 @@ for thisSadTrials_ in sadTrials_:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -6773,10 +6203,6 @@ for thisSadTrials_ in sadTrials_:
             thisComponent.setAutoDraw(False)
     sadTrials_.addData('image_5.started', image_5.tStartRefresh)
     sadTrials_.addData('image_5.stopped', image_5.tStopRefresh)
-    sadTrials_.addData('text_9.started', text_9.tStartRefresh)
-    sadTrials_.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -6941,10 +6367,11 @@ for thisSadTrial_2 in sadTrials_2:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -6959,7 +6386,7 @@ for thisSadTrial_2 in sadTrials_2:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -6968,7 +6395,7 @@ for thisSadTrial_2 in sadTrials_2:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -6976,28 +6403,13 @@ for thisSadTrial_2 in sadTrials_2:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -7022,10 +6434,6 @@ for thisSadTrial_2 in sadTrials_2:
             thisComponent.setAutoDraw(False)
     sadTrials_2.addData('image_5.started', image_5.tStartRefresh)
     sadTrials_2.addData('image_5.stopped', image_5.tStopRefresh)
-    sadTrials_2.addData('text_9.started', text_9.tStartRefresh)
-    sadTrials_2.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -7190,10 +6598,11 @@ for thisSadTrial_3 in sadTrials_3:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -7208,7 +6617,7 @@ for thisSadTrial_3 in sadTrials_3:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -7217,7 +6626,7 @@ for thisSadTrial_3 in sadTrials_3:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -7225,28 +6634,13 @@ for thisSadTrial_3 in sadTrials_3:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -7271,10 +6665,6 @@ for thisSadTrial_3 in sadTrials_3:
             thisComponent.setAutoDraw(False)
     sadTrials_3.addData('image_5.started', image_5.tStartRefresh)
     sadTrials_3.addData('image_5.stopped', image_5.tStopRefresh)
-    sadTrials_3.addData('text_9.started', text_9.tStartRefresh)
-    sadTrials_3.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -7458,10 +6848,11 @@ for thisThreeSadBlock in threeSadBlocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -7476,7 +6867,7 @@ for thisThreeSadBlock in threeSadBlocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -7485,7 +6876,7 @@ for thisThreeSadBlock in threeSadBlocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -7493,28 +6884,13 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -7539,10 +6915,6 @@ for thisThreeSadBlock in threeSadBlocks:
                 thisComponent.setAutoDraw(False)
         sadTrials_4.addData('image_5.started', image_5.tStartRefresh)
         sadTrials_4.addData('image_5.stopped', image_5.tStopRefresh)
-        sadTrials_4.addData('text_9.started', text_9.tStartRefresh)
-        sadTrials_4.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -7707,10 +7079,11 @@ for thisThreeSadBlock in threeSadBlocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -7725,7 +7098,7 @@ for thisThreeSadBlock in threeSadBlocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -7734,7 +7107,7 @@ for thisThreeSadBlock in threeSadBlocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -7742,28 +7115,13 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -7788,10 +7146,6 @@ for thisThreeSadBlock in threeSadBlocks:
                 thisComponent.setAutoDraw(False)
         sadTrials_5.addData('image_5.started', image_5.tStartRefresh)
         sadTrials_5.addData('image_5.stopped', image_5.tStopRefresh)
-        sadTrials_5.addData('text_9.started', text_9.tStartRefresh)
-        sadTrials_5.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -7956,10 +7310,11 @@ for thisThreeSadBlock in threeSadBlocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -7974,7 +7329,7 @@ for thisThreeSadBlock in threeSadBlocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -7983,7 +7338,7 @@ for thisThreeSadBlock in threeSadBlocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -7991,28 +7346,13 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -8037,10 +7377,6 @@ for thisThreeSadBlock in threeSadBlocks:
                 thisComponent.setAutoDraw(False)
         sasdTrials_6.addData('image_5.started', image_5.tStartRefresh)
         sasdTrials_6.addData('image_5.stopped', image_5.tStopRefresh)
-        sasdTrials_6.addData('text_9.started', text_9.tStartRefresh)
-        sasdTrials_6.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -8205,10 +7541,11 @@ for thisThreeSadBlock in threeSadBlocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -8223,7 +7560,7 @@ for thisThreeSadBlock in threeSadBlocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -8232,7 +7569,7 @@ for thisThreeSadBlock in threeSadBlocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -8240,28 +7577,13 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -8286,10 +7608,6 @@ for thisThreeSadBlock in threeSadBlocks:
                 thisComponent.setAutoDraw(False)
         sadTrials_7.addData('image_5.started', image_5.tStartRefresh)
         sadTrials_7.addData('image_5.stopped', image_5.tStopRefresh)
-        sadTrials_7.addData('text_9.started', text_9.tStartRefresh)
-        sadTrials_7.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -8454,10 +7772,11 @@ for thisThreeSadBlock in threeSadBlocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -8472,7 +7791,7 @@ for thisThreeSadBlock in threeSadBlocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -8481,7 +7800,7 @@ for thisThreeSadBlock in threeSadBlocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -8489,28 +7808,13 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -8535,10 +7839,6 @@ for thisThreeSadBlock in threeSadBlocks:
                 thisComponent.setAutoDraw(False)
         sadTrials_8.addData('image_5.started', image_5.tStartRefresh)
         sadTrials_8.addData('image_5.stopped', image_5.tStopRefresh)
-        sadTrials_8.addData('text_9.started', text_9.tStartRefresh)
-        sadTrials_8.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -8703,10 +8003,11 @@ for thisThreeSadBlock in threeSadBlocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -8721,7 +8022,7 @@ for thisThreeSadBlock in threeSadBlocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -8730,7 +8031,7 @@ for thisThreeSadBlock in threeSadBlocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -8738,28 +8039,13 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -8784,10 +8070,6 @@ for thisThreeSadBlock in threeSadBlocks:
                 thisComponent.setAutoDraw(False)
         sadTrials_9.addData('image_5.started', image_5.tStartRefresh)
         sadTrials_9.addData('image_5.stopped', image_5.tStopRefresh)
-        sadTrials_9.addData('text_9.started', text_9.tStartRefresh)
-        sadTrials_9.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -8952,10 +8234,11 @@ for thisThreeSadBlock in threeSadBlocks:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -8970,7 +8253,7 @@ for thisThreeSadBlock in threeSadBlocks:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -8979,7 +8262,7 @@ for thisThreeSadBlock in threeSadBlocks:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -8987,28 +8270,13 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -9033,10 +8301,6 @@ for thisThreeSadBlock in threeSadBlocks:
                 thisComponent.setAutoDraw(False)
         sadTrials_10.addData('image_5.started', image_5.tStartRefresh)
         sadTrials_10.addData('image_5.stopped', image_5.tStopRefresh)
-        sadTrials_10.addData('text_9.started', text_9.tStartRefresh)
-        sadTrials_10.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -9232,10 +8496,11 @@ for thisOneHFiveN in oneHFiveN:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -9250,7 +8515,7 @@ for thisOneHFiveN in oneHFiveN:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -9259,7 +8524,7 @@ for thisOneHFiveN in oneHFiveN:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -9267,28 +8532,13 @@ for thisOneHFiveN in oneHFiveN:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -9313,10 +8563,6 @@ for thisOneHFiveN in oneHFiveN:
             thisComponent.setAutoDraw(False)
     oneHFiveN.addData('image_5.started', image_5.tStartRefresh)
     oneHFiveN.addData('image_5.stopped', image_5.tStopRefresh)
-    oneHFiveN.addData('text_9.started', text_9.tStartRefresh)
-    oneHFiveN.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -9481,10 +8727,11 @@ for thisOneHFiveN_2 in oneHFiveN_2:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -9499,7 +8746,7 @@ for thisOneHFiveN_2 in oneHFiveN_2:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -9508,7 +8755,7 @@ for thisOneHFiveN_2 in oneHFiveN_2:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -9516,28 +8763,13 @@ for thisOneHFiveN_2 in oneHFiveN_2:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -9562,10 +8794,6 @@ for thisOneHFiveN_2 in oneHFiveN_2:
             thisComponent.setAutoDraw(False)
     oneHFiveN_2.addData('image_5.started', image_5.tStartRefresh)
     oneHFiveN_2.addData('image_5.stopped', image_5.tStopRefresh)
-    oneHFiveN_2.addData('text_9.started', text_9.tStartRefresh)
-    oneHFiveN_2.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -9730,10 +8958,11 @@ for thisOneHFiveN_3 in oneHFiveN_3:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -9748,7 +8977,7 @@ for thisOneHFiveN_3 in oneHFiveN_3:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -9757,7 +8986,7 @@ for thisOneHFiveN_3 in oneHFiveN_3:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -9765,28 +8994,13 @@ for thisOneHFiveN_3 in oneHFiveN_3:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -9811,10 +9025,6 @@ for thisOneHFiveN_3 in oneHFiveN_3:
             thisComponent.setAutoDraw(False)
     oneHFiveN_3.addData('image_5.started', image_5.tStartRefresh)
     oneHFiveN_3.addData('image_5.stopped', image_5.tStopRefresh)
-    oneHFiveN_3.addData('text_9.started', text_9.tStartRefresh)
-    oneHFiveN_3.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -9998,10 +9208,11 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -10016,7 +9227,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -10025,7 +9236,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -10033,28 +9244,13 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -10079,10 +9275,6 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 thisComponent.setAutoDraw(False)
         oneHFiveN_4.addData('image_5.started', image_5.tStartRefresh)
         oneHFiveN_4.addData('image_5.stopped', image_5.tStopRefresh)
-        oneHFiveN_4.addData('text_9.started', text_9.tStartRefresh)
-        oneHFiveN_4.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -10247,10 +9439,11 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -10265,7 +9458,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -10274,7 +9467,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -10282,28 +9475,13 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -10328,10 +9506,6 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 thisComponent.setAutoDraw(False)
         oneHFiveN_5.addData('image_5.started', image_5.tStartRefresh)
         oneHFiveN_5.addData('image_5.stopped', image_5.tStopRefresh)
-        oneHFiveN_5.addData('text_9.started', text_9.tStartRefresh)
-        oneHFiveN_5.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -10496,10 +9670,11 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -10514,7 +9689,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -10523,7 +9698,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -10531,28 +9706,13 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -10577,10 +9737,6 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 thisComponent.setAutoDraw(False)
         oneHFiveN_6.addData('image_5.started', image_5.tStartRefresh)
         oneHFiveN_6.addData('image_5.stopped', image_5.tStopRefresh)
-        oneHFiveN_6.addData('text_9.started', text_9.tStartRefresh)
-        oneHFiveN_6.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -10745,10 +9901,11 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -10763,7 +9920,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -10772,7 +9929,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -10780,28 +9937,13 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -10826,10 +9968,6 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 thisComponent.setAutoDraw(False)
         oneHFiveN_7.addData('image_5.started', image_5.tStartRefresh)
         oneHFiveN_7.addData('image_5.stopped', image_5.tStopRefresh)
-        oneHFiveN_7.addData('text_9.started', text_9.tStartRefresh)
-        oneHFiveN_7.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -10994,10 +10132,11 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -11012,7 +10151,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -11021,7 +10160,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -11029,28 +10168,13 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -11075,10 +10199,6 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 thisComponent.setAutoDraw(False)
         oneHFiveN_8.addData('image_5.started', image_5.tStartRefresh)
         oneHFiveN_8.addData('image_5.stopped', image_5.tStopRefresh)
-        oneHFiveN_8.addData('text_9.started', text_9.tStartRefresh)
-        oneHFiveN_8.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -11243,10 +10363,11 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -11261,7 +10382,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -11270,7 +10391,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -11278,28 +10399,13 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -11324,10 +10430,6 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 thisComponent.setAutoDraw(False)
         oneHFiveN_9.addData('image_5.started', image_5.tStartRefresh)
         oneHFiveN_9.addData('image_5.stopped', image_5.tStopRefresh)
-        oneHFiveN_9.addData('text_9.started', text_9.tStartRefresh)
-        oneHFiveN_9.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -11492,10 +10594,11 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -11510,7 +10613,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -11519,7 +10622,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -11527,28 +10630,13 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -11573,10 +10661,6 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 thisComponent.setAutoDraw(False)
         oneHFiveN_10.addData('image_5.started', image_5.tStartRefresh)
         oneHFiveN_10.addData('image_5.stopped', image_5.tStopRefresh)
-        oneHFiveN_10.addData('text_9.started', text_9.tStartRefresh)
-        oneHFiveN_10.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -11772,10 +10856,11 @@ for thisOneSadFiveN in oneSadFiveN:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -11790,7 +10875,7 @@ for thisOneSadFiveN in oneSadFiveN:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -11799,7 +10884,7 @@ for thisOneSadFiveN in oneSadFiveN:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -11807,28 +10892,13 @@ for thisOneSadFiveN in oneSadFiveN:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -11853,10 +10923,6 @@ for thisOneSadFiveN in oneSadFiveN:
             thisComponent.setAutoDraw(False)
     oneSadFiveN.addData('image_5.started', image_5.tStartRefresh)
     oneSadFiveN.addData('image_5.stopped', image_5.tStopRefresh)
-    oneSadFiveN.addData('text_9.started', text_9.tStartRefresh)
-    oneSadFiveN.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -12021,10 +11087,11 @@ for thisOneSadFiveN_2 in oneSadFiveN_2:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -12039,7 +11106,7 @@ for thisOneSadFiveN_2 in oneSadFiveN_2:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -12048,7 +11115,7 @@ for thisOneSadFiveN_2 in oneSadFiveN_2:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -12056,28 +11123,13 @@ for thisOneSadFiveN_2 in oneSadFiveN_2:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -12102,10 +11154,6 @@ for thisOneSadFiveN_2 in oneSadFiveN_2:
             thisComponent.setAutoDraw(False)
     oneSadFiveN_2.addData('image_5.started', image_5.tStartRefresh)
     oneSadFiveN_2.addData('image_5.stopped', image_5.tStopRefresh)
-    oneSadFiveN_2.addData('text_9.started', text_9.tStartRefresh)
-    oneSadFiveN_2.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -12270,10 +11318,11 @@ for thisOneSadFiveN_3 in oneSadFiveN_3:
     
     # ------Prepare to start Routine "imageStudy"-------
     continueRoutine = True
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     image_5.setImage(images)
     # keep track of which components have finished
-    imageStudyComponents = [image_5, text_9]
+    imageStudyComponents = [image_5]
     for thisComponent in imageStudyComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -12288,7 +11337,7 @@ for thisOneSadFiveN_3 in oneSadFiveN_3:
     frameN = -1
     
     # -------Run Routine "imageStudy"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() > 0:
         # get current time
         t = imageStudyClock.getTime()
         tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -12297,7 +11346,7 @@ for thisOneSadFiveN_3 in oneSadFiveN_3:
         # update/draw components on each frame
         
         # *image_5* updates
-        if image_5.status == NOT_STARTED and frameN >= 0.0:
+        if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             image_5.frameNStart = frameN  # exact frame index
             image_5.tStart = t  # local t and not account for scr refresh
@@ -12305,28 +11354,13 @@ for thisOneSadFiveN_3 in oneSadFiveN_3:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= .5 * 60:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(False)
-        
-        # *text_9* updates
-        if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-            # keep track of start time/frame for later
-            text_9.frameNStart = frameN  # exact frame index
-            text_9.tStart = t  # local t and not account for scr refresh
-            text_9.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-            text_9.setAutoDraw(True)
-        if text_9.status == STARTED:
-            if frameN >= 1 * 60:
-                # keep track of stop time/frame for later
-                text_9.tStop = t  # not accounting for scr refresh
-                text_9.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -12351,10 +11385,6 @@ for thisOneSadFiveN_3 in oneSadFiveN_3:
             thisComponent.setAutoDraw(False)
     oneSadFiveN_3.addData('image_5.started', image_5.tStartRefresh)
     oneSadFiveN_3.addData('image_5.stopped', image_5.tStopRefresh)
-    oneSadFiveN_3.addData('text_9.started', text_9.tStartRefresh)
-    oneSadFiveN_3.addData('text_9.stopped', text_9.tStopRefresh)
-    # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
     
     # ------Prepare to start Routine "blank_5"-------
     continueRoutine = True
@@ -12538,10 +11568,11 @@ for thisOneSad5Neutral in oneSad5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -12556,7 +11587,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -12565,7 +11596,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -12573,28 +11604,13 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -12619,10 +11635,6 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 thisComponent.setAutoDraw(False)
         oneSadFiveN_4.addData('image_5.started', image_5.tStartRefresh)
         oneSadFiveN_4.addData('image_5.stopped', image_5.tStopRefresh)
-        oneSadFiveN_4.addData('text_9.started', text_9.tStartRefresh)
-        oneSadFiveN_4.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -12787,10 +11799,11 @@ for thisOneSad5Neutral in oneSad5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -12805,7 +11818,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -12814,7 +11827,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -12822,28 +11835,13 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -12868,10 +11866,6 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 thisComponent.setAutoDraw(False)
         oneSadFiveN_5.addData('image_5.started', image_5.tStartRefresh)
         oneSadFiveN_5.addData('image_5.stopped', image_5.tStopRefresh)
-        oneSadFiveN_5.addData('text_9.started', text_9.tStartRefresh)
-        oneSadFiveN_5.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -13036,10 +12030,11 @@ for thisOneSad5Neutral in oneSad5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -13054,7 +12049,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -13063,7 +12058,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -13071,28 +12066,13 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -13117,10 +12097,6 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 thisComponent.setAutoDraw(False)
         oneSadFiveN_6.addData('image_5.started', image_5.tStartRefresh)
         oneSadFiveN_6.addData('image_5.stopped', image_5.tStopRefresh)
-        oneSadFiveN_6.addData('text_9.started', text_9.tStartRefresh)
-        oneSadFiveN_6.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -13285,10 +12261,11 @@ for thisOneSad5Neutral in oneSad5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -13303,7 +12280,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -13312,7 +12289,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -13320,28 +12297,13 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -13366,10 +12328,6 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 thisComponent.setAutoDraw(False)
         oneSadFiveN_7.addData('image_5.started', image_5.tStartRefresh)
         oneSadFiveN_7.addData('image_5.stopped', image_5.tStopRefresh)
-        oneSadFiveN_7.addData('text_9.started', text_9.tStartRefresh)
-        oneSadFiveN_7.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -13534,10 +12492,11 @@ for thisOneSad5Neutral in oneSad5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -13552,7 +12511,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -13561,7 +12520,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -13569,28 +12528,13 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -13615,10 +12559,6 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 thisComponent.setAutoDraw(False)
         oneSadFiveN_8.addData('image_5.started', image_5.tStartRefresh)
         oneSadFiveN_8.addData('image_5.stopped', image_5.tStopRefresh)
-        oneSadFiveN_8.addData('text_9.started', text_9.tStartRefresh)
-        oneSadFiveN_8.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -13783,10 +12723,11 @@ for thisOneSad5Neutral in oneSad5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -13801,7 +12742,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -13810,7 +12751,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -13818,28 +12759,13 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -13864,10 +12790,6 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 thisComponent.setAutoDraw(False)
         oneSadFiveN_9.addData('image_5.started', image_5.tStartRefresh)
         oneSadFiveN_9.addData('image_5.stopped', image_5.tStopRefresh)
-        oneSadFiveN_9.addData('text_9.started', text_9.tStartRefresh)
-        oneSadFiveN_9.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
@@ -14032,10 +12954,11 @@ for thisOneSad5Neutral in oneSad5Neutral:
         
         # ------Prepare to start Routine "imageStudy"-------
         continueRoutine = True
+        routineTimer.add(0.500000)
         # update component parameters for each repeat
         image_5.setImage(images)
         # keep track of which components have finished
-        imageStudyComponents = [image_5, text_9]
+        imageStudyComponents = [image_5]
         for thisComponent in imageStudyComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -14050,7 +12973,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
         frameN = -1
         
         # -------Run Routine "imageStudy"-------
-        while continueRoutine:
+        while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             t = imageStudyClock.getTime()
             tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
@@ -14059,7 +12982,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             # update/draw components on each frame
             
             # *image_5* updates
-            if image_5.status == NOT_STARTED and frameN >= 0.0:
+            if image_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
                 image_5.frameNStart = frameN  # exact frame index
                 image_5.tStart = t  # local t and not account for scr refresh
@@ -14067,28 +12990,13 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= .5 * 60:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
                     image_5.setAutoDraw(False)
-            
-            # *text_9* updates
-            if text_9.status == NOT_STARTED and frameN >= .5 * 60:
-                # keep track of start time/frame for later
-                text_9.frameNStart = frameN  # exact frame index
-                text_9.tStart = t  # local t and not account for scr refresh
-                text_9.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_9, 'tStartRefresh')  # time at next scr refresh
-                text_9.setAutoDraw(True)
-            if text_9.status == STARTED:
-                if frameN >= 1 * 60:
-                    # keep track of stop time/frame for later
-                    text_9.tStop = t  # not accounting for scr refresh
-                    text_9.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_9, 'tStopRefresh')  # time at next scr refresh
-                    text_9.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -14113,10 +13021,6 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 thisComponent.setAutoDraw(False)
         oneSadFiveN_10.addData('image_5.started', image_5.tStartRefresh)
         oneSadFiveN_10.addData('image_5.stopped', image_5.tStopRefresh)
-        oneSadFiveN_10.addData('text_9.started', text_9.tStartRefresh)
-        oneSadFiveN_10.addData('text_9.stopped', text_9.tStopRefresh)
-        # the Routine "imageStudy" was not non-slip safe, so reset the non-slip timer
-        routineTimer.reset()
         
         # ------Prepare to start Routine "blank_5"-------
         continueRoutine = True
