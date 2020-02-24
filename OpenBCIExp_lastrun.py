@@ -1,8 +1,8 @@
-﻿#!/usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.1),
-    on February 24, 2020, at 09:21
+    on February 24, 2020, at 09:38
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -28,6 +28,7 @@ import sys  # to get file system encoding
 
 from psychopy.hardware import keyboard
 
+import time;
 
 
 # Ensure that relative paths start from the same directory as this script
@@ -2165,7 +2166,7 @@ for thisTestTrial in testTrials:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -2351,7 +2352,7 @@ thisTestTrial_2 = TestTrials_2.trialList[0]  # so we can initialise stimuli with
 if thisTestTrial_2 != None:
     for paramName in thisTestTrial_2:
         exec('{} = thisTestTrial_2[paramName]'.format(paramName))
-
+now = time.time()
 for thisTestTrial_2 in TestTrials_2:
     currentLoop = TestTrials_2
     # abbreviate parameter names if possible (e.g. rgb = thisTestTrial_2.rgb)
@@ -2396,7 +2397,7 @@ for thisTestTrial_2 in TestTrials_2:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -2499,6 +2500,7 @@ for thisTestTrial_2 in TestTrials_2:
     TestTrials_2.addData('text_2.stopped', text_2.tStopRefresh)
     thisExp.nextEntry()
     
+print(now - time.time())
 # completed 1 repeats of 'TestTrials_2'
 
 
@@ -2627,7 +2629,7 @@ for thisTestTrial_4 in testTrials_4:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -2858,7 +2860,7 @@ for thisTeatRrial_3 in TeatRrials_3:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -3089,7 +3091,7 @@ for thisTestTrial_5 in testTrials_5:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -3320,7 +3322,7 @@ for thisTestTrial_6 in testTrials_6:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -3551,7 +3553,7 @@ for thisTestTrial_7 in testTrials_7:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -3809,7 +3811,7 @@ for thisTrial in trial:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -4040,7 +4042,7 @@ for thisTrial_2 in trial_2:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -4271,7 +4273,7 @@ for thisTrial_3 in trials_3:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -4521,7 +4523,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -4752,7 +4754,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -4983,7 +4985,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -5214,7 +5216,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -5445,7 +5447,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -5676,7 +5678,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -5907,7 +5909,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -6169,7 +6171,7 @@ for thisSadTrials_ in sadTrials_:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -6400,7 +6402,7 @@ for thisSadTrial_2 in sadTrials_2:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -6631,7 +6633,7 @@ for thisSadTrial_3 in sadTrials_3:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -6881,7 +6883,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -7112,7 +7114,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -7343,7 +7345,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -7574,7 +7576,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -7805,7 +7807,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -8036,7 +8038,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -8267,7 +8269,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -8529,7 +8531,7 @@ for thisOneHFiveN in oneHFiveN:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -8760,7 +8762,7 @@ for thisOneHFiveN_2 in oneHFiveN_2:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -8991,7 +8993,7 @@ for thisOneHFiveN_3 in oneHFiveN_3:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -9241,7 +9243,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -9472,7 +9474,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -9703,7 +9705,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -9934,7 +9936,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -10165,7 +10167,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -10396,7 +10398,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -10627,7 +10629,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -10889,7 +10891,7 @@ for thisOneSadFiveN in oneSadFiveN:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -11120,7 +11122,7 @@ for thisOneSadFiveN_2 in oneSadFiveN_2:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -11351,7 +11353,7 @@ for thisOneSadFiveN_3 in oneSadFiveN_3:
             win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
-            if frameN >= 8:
+            if frameN >= 30:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -11601,7 +11603,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -11832,7 +11834,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -12063,7 +12065,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -12294,7 +12296,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -12525,7 +12527,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -12756,7 +12758,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -12987,7 +12989,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
-                if frameN >= 8:
+                if frameN >= 30:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
