@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2020.1.1">
+<PsychoPy2experiment encoding="utf-8" version="3.2.4">
   <Settings>
     <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
     <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
@@ -102,32 +102,6 @@
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
       </ImageComponent>
-    </Routine>
-    <Routine name="blank_5">
-      <TextComponent name="text_2">
-        <Param name="color" updates="constant" val="white" valType="str"/>
-        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="flip" updates="constant" val="" valType="str"/>
-        <Param name="font" updates="constant" val="Arial" valType="str"/>
-        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
-        <Param name="name" updates="None" val="text_2" valType="code"/>
-        <Param name="opacity" updates="constant" val="1" valType="code"/>
-        <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="0.5" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
-        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
-      </TextComponent>
     </Routine>
     <Routine name="EndScreen">
       <TextComponent name="text_3">
@@ -396,7 +370,7 @@
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
         <Param name="flipVert" updates="constant" val="False" valType="bool"/>
-        <Param name="image" updates="set every repeat" val="$images" valType="str"/>
+        <Param name="image" updates="set during: blank.ISI" val="$images" valType="str"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
         <Param name="mask" updates="constant" val="None" valType="str"/>
         <Param name="name" updates="None" val="image_5" valType="code"/>
@@ -406,40 +380,45 @@
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="size" updates="constant" val="(0.5, 0.65)" valType="code"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="frame N" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="frame N" valType="str"/>
-        <Param name="stopVal" updates="constant" val=".5 * 60" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val=".5" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
       </ImageComponent>
-      <TextComponent name="text_9">
-        <Param name="color" updates="constant" val="white" valType="str"/>
-        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+      <CodeComponent name="code">
+        <Param name="Begin Experiment" updates="constant" val="import time&amp;#10;beginExp = time.time()" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="beginRout = time.time()" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="print(&quot;Duration since Experiment start:&quot;, time.time() - beginExp)&amp;#10;print(&quot;Duration since Routine start:&quot; , time.time() - beginRout)" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="blank">
+      <StaticComponent name="ISI">
+        <Param name="code" updates="None" val="" valType="code"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="flip" updates="constant" val="" valType="str"/>
-        <Param name="font" updates="constant" val="Arial" valType="str"/>
-        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
-        <Param name="name" updates="None" val="text_9" valType="code"/>
-        <Param name="opacity" updates="constant" val="1" valType="code"/>
-        <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="name" updates="None" val="ISI" valType="code"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="frame N" valType="str"/>
-        <Param name="startVal" updates="None" val=".5 * 60" valType="code"/>
-        <Param name="stopType" updates="None" val="frame N" valType="str"/>
-        <Param name="stopVal" updates="constant" val="1 * 60" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val=".8" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Break" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
-        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
-      </TextComponent>
+      </StaticComponent>
     </Routine>
-    <Routine name="blank"/>
     <Routine name="rest">
       <TextComponent name="text_8">
         <Param name="color" updates="constant" val="white" valType="str"/>
@@ -529,6 +508,7 @@
       <Param name="name" updates="None" val="testTrials" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="testTrials"/>
     <Routine name="blank5s"/>
@@ -543,8 +523,8 @@
       <Param name="name" updates="None" val="TestTrials_2" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="TestTrials_2"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="testTrials_4">
@@ -558,8 +538,8 @@
       <Param name="name" updates="None" val="testTrials_4" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="testTrials_4"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="TeatRrials_3">
@@ -573,8 +553,8 @@
       <Param name="name" updates="None" val="TeatRrials_3" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="TeatRrials_3"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="testTrials_5">
@@ -588,8 +568,8 @@
       <Param name="name" updates="None" val="testTrials_5" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="testTrials_5"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="testTrials_6">
@@ -603,8 +583,8 @@
       <Param name="name" updates="None" val="testTrials_6" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="testTrials_6"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="testTrials_7">
@@ -618,8 +598,8 @@
       <Param name="name" updates="None" val="testTrials_7" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="testTrials_7"/>
     <Routine name="rest"/>
     <LoopInitiator loopType="TrialHandler" name="trial">
@@ -633,8 +613,8 @@
       <Param name="name" updates="None" val="trial" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="trial"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="trial_2">
@@ -648,8 +628,8 @@
       <Param name="name" updates="None" val="trial_2" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="trial_2"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="trials_3">
@@ -663,8 +643,8 @@
       <Param name="name" updates="None" val="trials_3" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="trials_3"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="threeHappyblocks">
@@ -689,8 +669,8 @@
       <Param name="name" updates="None" val="trials_4" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="trials_4"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="trials_5">
@@ -704,8 +684,8 @@
       <Param name="name" updates="None" val="trials_5" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="trials_5"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="trials_6">
@@ -719,8 +699,8 @@
       <Param name="name" updates="None" val="trials_6" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="trials_6"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="trials_7">
@@ -734,8 +714,8 @@
       <Param name="name" updates="None" val="trials_7" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="trials_7"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="trials_8">
@@ -749,8 +729,8 @@
       <Param name="name" updates="None" val="trials_8" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="trials_8"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="trials_9">
@@ -764,8 +744,8 @@
       <Param name="name" updates="None" val="trials_9" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="trials_9"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="trials_10">
@@ -779,8 +759,8 @@
       <Param name="name" updates="None" val="trials_10" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="trials_10"/>
     <LoopTerminator name="threeHappyblocks"/>
     <Routine name="rest"/>
@@ -796,7 +776,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="sadTrials_"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="sadTrials_2">
@@ -811,7 +790,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="sadTrials_2"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="sadTrials_3">
@@ -826,7 +804,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="sadTrials_3"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="threeSadBlocks">
@@ -852,7 +829,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="sadTrials_4"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="sadTrials_5">
@@ -867,7 +843,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="sadTrials_5"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="sasdTrials_6">
@@ -882,7 +857,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="sasdTrials_6"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="sadTrials_7">
@@ -897,7 +871,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="sadTrials_7"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="sadTrials_8">
@@ -912,7 +885,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="sadTrials_8"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="sadTrials_9">
@@ -927,7 +899,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="sadTrials_9"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="sadTrials_10">
@@ -942,7 +913,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="sadTrials_10"/>
     <LoopTerminator name="threeSadBlocks"/>
     <Routine name="rest"/>
@@ -958,7 +928,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneHFiveN"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneHFiveN_2">
@@ -973,7 +942,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneHFiveN_2"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneHFiveN_3">
@@ -988,7 +956,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneHFiveN_3"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneHappy5Neutral">
@@ -1014,7 +981,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneHFiveN_4"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneHFiveN_5">
@@ -1029,7 +995,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneHFiveN_5"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneHFiveN_6">
@@ -1044,7 +1009,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneHFiveN_6"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneHFiveN_7">
@@ -1059,7 +1023,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneHFiveN_7"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneHFiveN_8">
@@ -1074,7 +1037,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneHFiveN_8"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneHFiveN_9">
@@ -1089,7 +1051,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneHFiveN_9"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneHFiveN_10">
@@ -1104,7 +1065,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneHFiveN_10"/>
     <LoopTerminator name="oneHappy5Neutral"/>
     <Routine name="rest"/>
@@ -1120,7 +1080,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneSadFiveN"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneSadFiveN_2">
@@ -1135,7 +1094,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneSadFiveN_2"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneSadFiveN_3">
@@ -1150,7 +1108,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneSadFiveN_3"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneSad5Neutral">
@@ -1176,7 +1133,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneSadFiveN_4"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneSadFiveN_5">
@@ -1191,7 +1147,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneSadFiveN_5"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneSadFiveN_6">
@@ -1206,7 +1161,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneSadFiveN_6"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneSadFiveN_7">
@@ -1221,7 +1175,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneSadFiveN_7"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneSadFiveN_8">
@@ -1236,7 +1189,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneSadFiveN_8"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneSadFiveN_9">
@@ -1251,7 +1203,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneSadFiveN_9"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneSadFiveN_10">
@@ -1266,7 +1217,6 @@
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="imageStudy"/>
-    <Routine name="blank_5"/>
     <LoopTerminator name="oneSadFiveN_10"/>
     <LoopTerminator name="oneSad5Neutral"/>
     <Routine name="EndScreen"/>
