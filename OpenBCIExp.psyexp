@@ -762,6 +762,7 @@
     <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="trials_10"/>
+    <Routine name="blank5s"/>
     <LoopTerminator name="threeHappyblocks"/>
     <Routine name="rest"/>
     <LoopInitiator loopType="TrialHandler" name="sadTrials_">
@@ -924,6 +925,7 @@
     <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="sadTrials_10"/>
+    <Routine name="blank5s"/>
     <LoopTerminator name="threeSadBlocks"/>
     <Routine name="rest"/>
     <LoopInitiator loopType="TrialHandler" name="oneHSixN">
@@ -1101,6 +1103,7 @@
     <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneHSixN_11"/>
+    <Routine name="blank5s"/>
     <LoopTerminator name="oneHappy5Neutral_21_trials"/>
     <Routine name="rest"/>
     <LoopInitiator loopType="TrialHandler" name="oneSadSixN">
@@ -1278,6 +1281,7 @@
     <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneSadSixN_11"/>
+    <Routine name="blank5s"/>
     <LoopTerminator name="oneSad5Neutral"/>
     <Routine name="EndScreen"/>
   </Flow>
