@@ -415,7 +415,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="(randint(4) / 10.0) + .8" valType="code"/>
+        <Param name="stopVal" updates="constant" val="(randint(5) / 10.0) + .8" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
       </StaticComponent>
     </Routine>
