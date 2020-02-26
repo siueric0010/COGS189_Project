@@ -415,7 +415,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val=".8" valType="code"/>
+        <Param name="stopVal" updates="constant" val="(randint(4) / 10.0) + .8" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
       </StaticComponent>
     </Routine>
@@ -654,7 +654,7 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="nReps" updates="None" val="2" valType="code"/>
       <Param name="name" updates="None" val="threeHappyblocks" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
@@ -775,6 +775,7 @@
       <Param name="name" updates="None" val="sadTrials_" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="sadTrials_"/>
     <Routine name="blank5s"/>
@@ -789,6 +790,7 @@
       <Param name="name" updates="None" val="sadTrials_2" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="sadTrials_2"/>
     <Routine name="blank5s"/>
@@ -803,6 +805,7 @@
       <Param name="name" updates="None" val="sadTrials_3" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="sadTrials_3"/>
     <Routine name="blank5s"/>
@@ -813,7 +816,7 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="nReps" updates="None" val="2" valType="code"/>
       <Param name="name" updates="None" val="threeSadBlocks" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
@@ -828,6 +831,7 @@
       <Param name="name" updates="None" val="sadTrials_4" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="sadTrials_4"/>
     <Routine name="blank5s"/>
@@ -842,6 +846,7 @@
       <Param name="name" updates="None" val="sadTrials_5" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="sadTrials_5"/>
     <Routine name="blank5s"/>
@@ -856,6 +861,7 @@
       <Param name="name" updates="None" val="sasdTrials_6" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="sasdTrials_6"/>
     <Routine name="blank5s"/>
@@ -870,6 +876,7 @@
       <Param name="name" updates="None" val="sadTrials_7" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="sadTrials_7"/>
     <Routine name="blank5s"/>
@@ -884,6 +891,7 @@
       <Param name="name" updates="None" val="sadTrials_8" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="sadTrials_8"/>
     <Routine name="blank5s"/>
@@ -898,6 +906,7 @@
       <Param name="name" updates="None" val="sadTrials_9" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="sadTrials_9"/>
     <Routine name="blank5s"/>
@@ -912,6 +921,7 @@
       <Param name="name" updates="None" val="sadTrials_10" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="sadTrials_10"/>
     <LoopTerminator name="threeSadBlocks"/>
@@ -927,6 +937,7 @@
       <Param name="name" updates="None" val="oneHFiveN" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneHFiveN"/>
     <Routine name="blank5s"/>
@@ -941,6 +952,7 @@
       <Param name="name" updates="None" val="oneHFiveN_2" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneHFiveN_2"/>
     <Routine name="blank5s"/>
@@ -951,22 +963,38 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="5" valType="code"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
       <Param name="name" updates="None" val="oneHFiveN_3" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneHFiveN_3"/>
     <Routine name="blank5s"/>
-    <LoopInitiator loopType="TrialHandler" name="oneHappy5Neutral">
+    <LoopInitiator loopType="TrialHandler" name="oneHFiveN_4th">
+      <Param name="Selected rows" updates="None" val="30:36" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('images', 'HappyNeutral/140_y_f_h_a.jpg'), ('emotion', 'happy')]), OrderedDict([('images', 'HappyNeutral/Neutral 9.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/Neutral 7.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/116_m_m_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/066_y_m_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/Neutral 4.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/004_o_m_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s003-01_img.bmp'), ('emotion', 'happy')]), OrderedDict([('images', 'HappyNeutral/Neutral 6.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/140_y_f_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s001-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/066_y_m_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s003-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/Neutral 10.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s009-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s002-01_img.bmp'), ('emotion', 'happy')]), OrderedDict([('images', 'HappyNeutral/s002-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/Neutral 3.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/079_o_f_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/168_m_f_h_a.jpg'), ('emotion', 'happy')]), OrderedDict([('images', 'HappyNeutral/Neutral 1.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s028-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/004_o_m_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s037-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/168_m_f_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/Neutral 5.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/Neutral 5.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s009-01_img.bmp'), ('emotion', 'happy')]), OrderedDict([('images', 'HappyNeutral/s018-01_img.bmp'), ('emotion', 'happy')]), OrderedDict([('images', 'HappyNeutral/079_o_f_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s012-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s037-01_img.bmp'), ('emotion', 'happy')]), OrderedDict([('images', 'HappyNeutral/116_m_m_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/Neutral 1.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s009-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/116_m_m_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/004_o_m_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s012-01_img.bmp'), ('emotion', 'happy')]), OrderedDict([('images', 'HappyNeutral/140_y_f_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s006-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s005-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/Neutral 8.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/168_m_f_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s006-01_img.bmp'), ('emotion', 'happy')]), OrderedDict([('images', 'HappyNeutral/Neutral 7.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s012-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s003-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/Neutral 5.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s009-01_img.bmp'), ('emotion', 'happy')]), OrderedDict([('images', 'HappyNeutral/Neutral 4.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/079_o_f_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/Neutral 1.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s006-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s018-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/168_m_f_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/s001-01_img.bmp'), ('emotion', 'happy')]), OrderedDict([('images', 'HappyNeutral/s001-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/Neutral 10.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/Neutral 2.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'HappyNeutral/066_y_m_n_b.jpg'), ('emotion', 'neutral')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="1happy5Neut.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="oneHFiveN_4th" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="blank"/>
+    <Routine name="imageStudy"/>
+    <LoopTerminator name="oneHFiveN_4th"/>
+    <Routine name="blank5s"/>
+    <LoopInitiator loopType="TrialHandler" name="oneHappy5Neutral_21_trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
       <Param name="conditionsFile" updates="None" val="" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="code"/>
-      <Param name="name" updates="None" val="oneHappy5Neutral" valType="code"/>
+      <Param name="nReps" updates="None" val="3" valType="code"/>
+      <Param name="name" updates="None" val="oneHappy5Neutral_21_trials" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <LoopInitiator loopType="TrialHandler" name="oneHFiveN_4">
@@ -980,6 +1008,7 @@
       <Param name="name" updates="None" val="oneHFiveN_4" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneHFiveN_4"/>
     <Routine name="blank5s"/>
@@ -994,6 +1023,7 @@
       <Param name="name" updates="None" val="oneHFiveN_5" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneHFiveN_5"/>
     <Routine name="blank5s"/>
@@ -1008,6 +1038,7 @@
       <Param name="name" updates="None" val="oneHFiveN_6" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneHFiveN_6"/>
     <Routine name="blank5s"/>
@@ -1022,6 +1053,7 @@
       <Param name="name" updates="None" val="oneHFiveN_7" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneHFiveN_7"/>
     <Routine name="blank5s"/>
@@ -1036,6 +1068,7 @@
       <Param name="name" updates="None" val="oneHFiveN_8" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneHFiveN_8"/>
     <Routine name="blank5s"/>
@@ -1050,6 +1083,7 @@
       <Param name="name" updates="None" val="oneHFiveN_9" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneHFiveN_9"/>
     <Routine name="blank5s"/>
@@ -1064,9 +1098,10 @@
       <Param name="name" updates="None" val="oneHFiveN_10" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneHFiveN_10"/>
-    <LoopTerminator name="oneHappy5Neutral"/>
+    <LoopTerminator name="oneHappy5Neutral_21_trials"/>
     <Routine name="rest"/>
     <LoopInitiator loopType="TrialHandler" name="oneSadFiveN">
       <Param name="Selected rows" updates="None" val="0:6" valType="str"/>
@@ -1075,10 +1110,11 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="5" valType="code"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
       <Param name="name" updates="None" val="oneSadFiveN" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneSadFiveN"/>
     <Routine name="blank5s"/>
@@ -1093,6 +1129,7 @@
       <Param name="name" updates="None" val="oneSadFiveN_2" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneSadFiveN_2"/>
     <Routine name="blank5s"/>
@@ -1103,12 +1140,28 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="5" valType="code"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
       <Param name="name" updates="None" val="oneSadFiveN_3" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneSadFiveN_3"/>
+    <Routine name="blank5s"/>
+    <LoopInitiator loopType="TrialHandler" name="oneSadFiveN_4th">
+      <Param name="Selected rows" updates="None" val="36:42" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('images', 'SadNeutral/004_o_m_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s009-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/168_m_f_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/Neutral 7.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/140_y_f_s_b.jpg'), ('emotion', 'sad')]), OrderedDict([('images', 'SadNeutral/Neutral 5.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/168_m_f_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/066_y_m_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/Neutral 4.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/004_o_m_s_a.jpg'), ('emotion', 'sad')]), OrderedDict([('images', 'SadNeutral/140_y_f_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/116_m_m_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s028-02_img.bmp'), ('emotion', 'sad')]), OrderedDict([('images', 'SadNeutral/s005-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/079_o_f_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/116_m_m_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/004_o_m_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/066_y_m_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s037-02_img.bmp'), ('emotion', 'sad')]), OrderedDict([('images', 'SadNeutral/079_o_f_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/140_y_f_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s028-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s012-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/066_y_m_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s003-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s009-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/Neutral 6.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s006-02_img.bmp'), ('emotion', 'sad')]), OrderedDict([('images', 'SadNeutral/140_y_f_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s003-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/Neutral 4.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s001-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/Neutral 1.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s003-02_img.bmp'), ('emotion', 'sad')]), OrderedDict([('images', 'SadNeutral/s006-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/Neutral 3.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s002-02_img.bmp'), ('emotion', 'sad')]), OrderedDict([('images', 'SadNeutral/s012-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s002-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s006-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/140_y_f_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s037-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/140_y_f_s_a.jpg'), ('emotion', 'sad')]), OrderedDict([('images', 'SadNeutral/s001-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/116_m_m_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/Neutral 9.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s018-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/Neutral 5.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/168_m_f_s_b.jpg'), ('emotion', 'sad')]), OrderedDict([('images', 'SadNeutral/004_o_m_n_a.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/079_o_f_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/Neutral 8.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/Neutral 2.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/Neutral 10.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s012-02_img.bmp'), ('emotion', 'sad')]), OrderedDict([('images', 'SadNeutral/079_o_f_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/066_y_m_n_b.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s003-00_img.bmp'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/Neutral 4.jpg'), ('emotion', 'neutral')]), OrderedDict([('images', 'SadNeutral/s001-00_img.bmp'), ('emotion', 'neutral')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="1sad5Neutral.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="oneSadFiveN_4th" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="blank"/>
+    <Routine name="imageStudy"/>
+    <LoopTerminator name="oneSadFiveN_4th"/>
     <Routine name="blank5s"/>
     <LoopInitiator loopType="TrialHandler" name="oneSad5Neutral">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
@@ -1117,7 +1170,7 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="nReps" updates="None" val="3" valType="code"/>
       <Param name="name" updates="None" val="oneSad5Neutral" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
@@ -1132,6 +1185,7 @@
       <Param name="name" updates="None" val="oneSadFiveN_4" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneSadFiveN_4"/>
     <Routine name="blank5s"/>
@@ -1146,6 +1200,7 @@
       <Param name="name" updates="None" val="oneSadFiveN_5" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneSadFiveN_5"/>
     <Routine name="blank5s"/>
@@ -1160,6 +1215,7 @@
       <Param name="name" updates="None" val="oneSadFiveN_6" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneSadFiveN_6"/>
     <Routine name="blank5s"/>
@@ -1174,6 +1230,7 @@
       <Param name="name" updates="None" val="oneSadFiveN_7" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneSadFiveN_7"/>
     <Routine name="blank5s"/>
@@ -1188,6 +1245,7 @@
       <Param name="name" updates="None" val="oneSadFiveN_8" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneSadFiveN_8"/>
     <Routine name="blank5s"/>
@@ -1202,6 +1260,7 @@
       <Param name="name" updates="None" val="oneSadFiveN_9" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneSadFiveN_9"/>
     <Routine name="blank5s"/>
@@ -1216,6 +1275,7 @@
       <Param name="name" updates="None" val="oneSadFiveN_10" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
+    <Routine name="blank"/>
     <Routine name="imageStudy"/>
     <LoopTerminator name="oneSadFiveN_10"/>
     <LoopTerminator name="oneSad5Neutral"/>
