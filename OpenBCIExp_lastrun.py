@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.2.4),
-    on February 25, 2020, at 02:32
+    on February 26, 2020, at 12:13
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -173,6 +173,8 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
+count = 0
+
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
 text_4 = visual.TextStim(win=win, name='text_4',
@@ -182,6 +184,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
 
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
@@ -196,15 +202,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -215,6 +213,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
 
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
@@ -229,15 +231,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -248,6 +242,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
 
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
@@ -262,15 +260,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -281,6 +271,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
 
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
@@ -295,15 +289,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -314,6 +300,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
 
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
@@ -328,15 +318,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -347,6 +329,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
 
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
@@ -361,10 +347,303 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
+count = 0
+
+# Initialize components for Routine "rest"
+restClock = core.Clock()
+text_8 = visual.TextStim(win=win, name='text_8',
+    text='After taking an enough rest,\npress "space" to continue the experiment.',
+    font='Arial',
+    pos=(0, 0), height=0.08, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+key_resp_5 = keyboard.Keyboard()
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
+# Initialize components for Routine "imageStudy"
+imageStudyClock = core.Clock()
+image_5 = visual.ImageStim(
+    win=win,
+    name='image_5', 
+    image='sin', mask=None,
+    ori=0, pos=(0, 0), size=(0.5, 0.65),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
+import time
+beginExp = time.time()
+
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
+# Initialize components for Routine "imageStudy"
+imageStudyClock = core.Clock()
+image_5 = visual.ImageStim(
+    win=win,
+    name='image_5', 
+    image='sin', mask=None,
+    ori=0, pos=(0, 0), size=(0.5, 0.65),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
+import time
+beginExp = time.time()
+
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
+# Initialize components for Routine "imageStudy"
+imageStudyClock = core.Clock()
+image_5 = visual.ImageStim(
+    win=win,
+    name='image_5', 
+    image='sin', mask=None,
+    ori=0, pos=(0, 0), size=(0.5, 0.65),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
+import time
+beginExp = time.time()
+
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
+# Initialize components for Routine "imageStudy"
+imageStudyClock = core.Clock()
+image_5 = visual.ImageStim(
+    win=win,
+    name='image_5', 
+    image='sin', mask=None,
+    ori=0, pos=(0, 0), size=(0.5, 0.65),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
+import time
+beginExp = time.time()
+
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
+# Initialize components for Routine "imageStudy"
+imageStudyClock = core.Clock()
+image_5 = visual.ImageStim(
+    win=win,
+    name='image_5', 
+    image='sin', mask=None,
+    ori=0, pos=(0, 0), size=(0.5, 0.65),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
+import time
+beginExp = time.time()
+
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
+# Initialize components for Routine "imageStudy"
+imageStudyClock = core.Clock()
+image_5 = visual.ImageStim(
+    win=win,
+    name='image_5', 
+    image='sin', mask=None,
+    ori=0, pos=(0, 0), size=(0.5, 0.65),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
+import time
+beginExp = time.time()
+
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
+# Initialize components for Routine "imageStudy"
+imageStudyClock = core.Clock()
+image_5 = visual.ImageStim(
+    win=win,
+    name='image_5', 
+    image='sin', mask=None,
+    ori=0, pos=(0, 0), size=(0.5, 0.65),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
+import time
+beginExp = time.time()
+
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
+# Initialize components for Routine "imageStudy"
+imageStudyClock = core.Clock()
+image_5 = visual.ImageStim(
+    win=win,
+    name='image_5', 
+    image='sin', mask=None,
+    ori=0, pos=(0, 0), size=(0.5, 0.65),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
+import time
+beginExp = time.time()
+
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
+# Initialize components for Routine "imageStudy"
+imageStudyClock = core.Clock()
+image_5 = visual.ImageStim(
+    win=win,
+    name='image_5', 
+    image='sin', mask=None,
+    ori=0, pos=(0, 0), size=(0.5, 0.65),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
+import time
+beginExp = time.time()
+
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
+# Initialize components for Routine "imageStudy"
+imageStudyClock = core.Clock()
+image_5 = visual.ImageStim(
+    win=win,
+    name='image_5', 
+    image='sin', mask=None,
+    ori=0, pos=(0, 0), size=(0.5, 0.65),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
+import time
+beginExp = time.time()
+
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
     font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -382,6 +661,10 @@ text_8 = visual.TextStim(win=win, name='text_8',
     depth=0.0);
 key_resp_5 = keyboard.Keyboard()
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -395,15 +678,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -415,6 +690,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -428,15 +707,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -448,6 +719,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -461,15 +736,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -481,6 +748,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -494,15 +765,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -514,6 +777,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -527,15 +794,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -547,6 +806,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -560,15 +823,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -580,6 +835,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -593,15 +852,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -613,6 +864,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -626,15 +881,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -646,6 +893,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -659,15 +910,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -679,6 +922,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -692,10 +939,12 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
     font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -713,6 +962,10 @@ text_8 = visual.TextStim(win=win, name='text_8',
     depth=0.0);
 key_resp_5 = keyboard.Keyboard()
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -726,15 +979,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -746,6 +991,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -759,15 +1008,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -779,6 +1020,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -792,15 +1037,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -812,6 +1049,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -825,15 +1066,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -845,6 +1078,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -858,15 +1095,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -878,6 +1107,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -891,15 +1124,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -911,6 +1136,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -924,15 +1153,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -944,6 +1165,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -957,15 +1182,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -977,6 +1194,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -990,15 +1211,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -1010,6 +1223,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -1023,10 +1240,41 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
+# Initialize components for Routine "imageStudy"
+imageStudyClock = core.Clock()
+image_5 = visual.ImageStim(
+    win=win,
+    name='image_5', 
+    image='sin', mask=None,
+    ori=0, pos=(0, 0), size=(0.5, 0.65),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=0.0)
+import time
+beginExp = time.time()
+
+count = 0
+
+# Initialize components for Routine "blank5s"
+blank5sClock = core.Clock()
+text_4 = visual.TextStim(win=win, name='text_4',
+    text='Break Time',
     font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -1044,6 +1292,10 @@ text_8 = visual.TextStim(win=win, name='text_8',
     depth=0.0);
 key_resp_5 = keyboard.Keyboard()
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -1057,15 +1309,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -1077,6 +1321,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -1090,15 +1338,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -1110,6 +1350,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -1123,15 +1367,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -1143,6 +1379,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -1156,15 +1396,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -1176,6 +1408,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -1189,15 +1425,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -1209,6 +1437,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -1222,15 +1454,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -1242,6 +1466,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -1255,15 +1483,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -1275,6 +1495,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -1288,15 +1512,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -1308,6 +1524,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -1321,15 +1541,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -1341,39 +1553,9 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
-# Initialize components for Routine "imageStudy"
-imageStudyClock = core.Clock()
-image_5 = visual.ImageStim(
-    win=win,
-    name='image_5', 
-    image='sin', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.65),
-    color=[1,1,1], colorSpace='rgb', opacity=1,
-    flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=0.0)
-import time
-beginExp = time.time()
-
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "rest"
-restClock = core.Clock()
-text_8 = visual.TextStim(win=win, name='text_8',
-    text='After taking an enough rest,\npress "space" to continue the experiment.',
-    font='Arial',
-    pos=(0, 0), height=0.08, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-key_resp_5 = keyboard.Keyboard()
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
 
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
@@ -1388,15 +1570,7 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
@@ -1408,6 +1582,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
     languageStyle='LTR',
     depth=0.0);
 
+# Initialize components for Routine "blank"
+blankClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
 # Initialize components for Routine "imageStudy"
 imageStudyClock = core.Clock()
 image_5 = visual.ImageStim(
@@ -1421,274 +1599,12 @@ image_5 = visual.ImageStim(
 import time
 beginExp = time.time()
 
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
+count = 0
 
 # Initialize components for Routine "blank5s"
 blank5sClock = core.Clock()
 text_4 = visual.TextStim(win=win, name='text_4',
     text='Break Time',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "imageStudy"
-imageStudyClock = core.Clock()
-image_5 = visual.ImageStim(
-    win=win,
-    name='image_5', 
-    image='sin', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.65),
-    color=[1,1,1], colorSpace='rgb', opacity=1,
-    flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=0.0)
-import time
-beginExp = time.time()
-
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "blank5s"
-blank5sClock = core.Clock()
-text_4 = visual.TextStim(win=win, name='text_4',
-    text='Break Time',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "imageStudy"
-imageStudyClock = core.Clock()
-image_5 = visual.ImageStim(
-    win=win,
-    name='image_5', 
-    image='sin', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.65),
-    color=[1,1,1], colorSpace='rgb', opacity=1,
-    flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=0.0)
-import time
-beginExp = time.time()
-
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "blank5s"
-blank5sClock = core.Clock()
-text_4 = visual.TextStim(win=win, name='text_4',
-    text='Break Time',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "imageStudy"
-imageStudyClock = core.Clock()
-image_5 = visual.ImageStim(
-    win=win,
-    name='image_5', 
-    image='sin', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.65),
-    color=[1,1,1], colorSpace='rgb', opacity=1,
-    flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=0.0)
-import time
-beginExp = time.time()
-
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "blank5s"
-blank5sClock = core.Clock()
-text_4 = visual.TextStim(win=win, name='text_4',
-    text='Break Time',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "imageStudy"
-imageStudyClock = core.Clock()
-image_5 = visual.ImageStim(
-    win=win,
-    name='image_5', 
-    image='sin', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.65),
-    color=[1,1,1], colorSpace='rgb', opacity=1,
-    flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=0.0)
-import time
-beginExp = time.time()
-
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "blank5s"
-blank5sClock = core.Clock()
-text_4 = visual.TextStim(win=win, name='text_4',
-    text='Break Time',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "imageStudy"
-imageStudyClock = core.Clock()
-image_5 = visual.ImageStim(
-    win=win,
-    name='image_5', 
-    image='sin', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.65),
-    color=[1,1,1], colorSpace='rgb', opacity=1,
-    flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=0.0)
-import time
-beginExp = time.time()
-
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "blank5s"
-blank5sClock = core.Clock()
-text_4 = visual.TextStim(win=win, name='text_4',
-    text='Break Time',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "imageStudy"
-imageStudyClock = core.Clock()
-image_5 = visual.ImageStim(
-    win=win,
-    name='image_5', 
-    image='sin', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.65),
-    color=[1,1,1], colorSpace='rgb', opacity=1,
-    flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=0.0)
-import time
-beginExp = time.time()
-
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "blank5s"
-blank5sClock = core.Clock()
-text_4 = visual.TextStim(win=win, name='text_4',
-    text='Break Time',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "imageStudy"
-imageStudyClock = core.Clock()
-image_5 = visual.ImageStim(
-    win=win,
-    name='image_5', 
-    image='sin', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.65),
-    color=[1,1,1], colorSpace='rgb', opacity=1,
-    flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=0.0)
-import time
-beginExp = time.time()
-
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "blank5s"
-blank5sClock = core.Clock()
-text_4 = visual.TextStim(win=win, name='text_4',
-    text='Break Time',
-    font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# Initialize components for Routine "imageStudy"
-imageStudyClock = core.Clock()
-image_5 = visual.ImageStim(
-    win=win,
-    name='image_5', 
-    image='sin', mask=None,
-    ori=0, pos=(0, 0), size=(0.5, 0.65),
-    color=[1,1,1], colorSpace='rgb', opacity=1,
-    flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=0.0)
-import time
-beginExp = time.time()
-
-# Initialize components for Routine "blank_5"
-blank_5Clock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
-    text=None,
     font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -2139,7 +2055,7 @@ thisExp.addData('text_7.stopped', text_7.tStopRefresh)
 routineTimer.reset()
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -2176,7 +2092,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -2227,7 +2143,7 @@ for thisTestTrial in testTrials:
             exec('{} = thisTestTrial[paramName]'.format(paramName))
     
     # ------Prepare to start Routine "blank"-------
-    routineTimer.add(0.800000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blankComponents = [ISI]
@@ -2260,7 +2176,7 @@ for thisTestTrial in testTrials:
             ISI.tStart = t  # local t and not account for scr refresh
             ISI.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
-            ISI.start(.8)
+            ISI.start(0.05)
         elif ISI.status == STARTED:  # one frame should pass before updating params and completing
             # updating other components during *ISI*
             image_5.setImage(images)
@@ -2292,7 +2208,7 @@ for thisTestTrial in testTrials:
     testTrials.addData('ISI.stopped', ISI.tStopRefresh)
     
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -2330,7 +2246,7 @@ for thisTestTrial in testTrials:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -2362,13 +2278,16 @@ for thisTestTrial in testTrials:
     testTrials.addData('image_5.stopped', image_5.tStopRefresh)
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
+    
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'testTrials'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -2405,7 +2324,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -2455,8 +2374,73 @@ for thisTestTrial_2 in TestTrials_2:
         for paramName in thisTestTrial_2:
             exec('{} = thisTestTrial_2[paramName]'.format(paramName))
     
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    TestTrials_2.addData('ISI.started', ISI.tStartRefresh)
+    TestTrials_2.addData('ISI.stopped', ISI.tStopRefresh)
+    
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -2494,7 +2478,7 @@ for thisTestTrial_2 in TestTrials_2:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -2527,81 +2511,15 @@ for thisTestTrial_2 in TestTrials_2:
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    TestTrials_2.addData('text_2.started', text_2.tStartRefresh)
-    TestTrials_2.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'TestTrials_2'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -2638,7 +2556,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -2688,8 +2606,73 @@ for thisTestTrial_4 in testTrials_4:
         for paramName in thisTestTrial_4:
             exec('{} = thisTestTrial_4[paramName]'.format(paramName))
     
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    testTrials_4.addData('ISI.started', ISI.tStartRefresh)
+    testTrials_4.addData('ISI.stopped', ISI.tStopRefresh)
+    
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -2727,7 +2710,7 @@ for thisTestTrial_4 in testTrials_4:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -2760,81 +2743,15 @@ for thisTestTrial_4 in testTrials_4:
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    testTrials_4.addData('text_2.started', text_2.tStartRefresh)
-    testTrials_4.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'testTrials_4'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -2871,7 +2788,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -2921,8 +2838,73 @@ for thisTeatRrial_3 in TeatRrials_3:
         for paramName in thisTeatRrial_3:
             exec('{} = thisTeatRrial_3[paramName]'.format(paramName))
     
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    TeatRrials_3.addData('ISI.started', ISI.tStartRefresh)
+    TeatRrials_3.addData('ISI.stopped', ISI.tStopRefresh)
+    
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -2960,7 +2942,7 @@ for thisTeatRrial_3 in TeatRrials_3:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -2993,81 +2975,15 @@ for thisTeatRrial_3 in TeatRrials_3:
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    TeatRrials_3.addData('text_2.started', text_2.tStartRefresh)
-    TeatRrials_3.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'TeatRrials_3'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -3104,7 +3020,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -3154,8 +3070,73 @@ for thisTestTrial_5 in testTrials_5:
         for paramName in thisTestTrial_5:
             exec('{} = thisTestTrial_5[paramName]'.format(paramName))
     
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    testTrials_5.addData('ISI.started', ISI.tStartRefresh)
+    testTrials_5.addData('ISI.stopped', ISI.tStopRefresh)
+    
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -3193,7 +3174,7 @@ for thisTestTrial_5 in testTrials_5:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -3226,81 +3207,15 @@ for thisTestTrial_5 in testTrials_5:
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    testTrials_5.addData('text_2.started', text_2.tStartRefresh)
-    testTrials_5.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'testTrials_5'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -3337,7 +3252,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -3387,8 +3302,73 @@ for thisTestTrial_6 in testTrials_6:
         for paramName in thisTestTrial_6:
             exec('{} = thisTestTrial_6[paramName]'.format(paramName))
     
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    testTrials_6.addData('ISI.started', ISI.tStartRefresh)
+    testTrials_6.addData('ISI.stopped', ISI.tStopRefresh)
+    
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -3426,7 +3406,7 @@ for thisTestTrial_6 in testTrials_6:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -3459,81 +3439,15 @@ for thisTestTrial_6 in testTrials_6:
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    testTrials_6.addData('text_2.started', text_2.tStartRefresh)
-    testTrials_6.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'testTrials_6'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -3570,7 +3484,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -3620,8 +3534,73 @@ for thisTestTrial_7 in testTrials_7:
         for paramName in thisTestTrial_7:
             exec('{} = thisTestTrial_7[paramName]'.format(paramName))
     
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    testTrials_7.addData('ISI.started', ISI.tStartRefresh)
+    testTrials_7.addData('ISI.stopped', ISI.tStopRefresh)
+    
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -3659,7 +3638,7 @@ for thisTestTrial_7 in testTrials_7:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -3692,74 +3671,8 @@ for thisTestTrial_7 in testTrials_7:
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    testTrials_7.addData('text_2.started', text_2.tStartRefresh)
-    testTrials_7.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'testTrials_7'
@@ -3883,8 +3796,73 @@ for thisTrial in trial:
         for paramName in thisTrial:
             exec('{} = thisTrial[paramName]'.format(paramName))
     
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    trial.addData('ISI.started', ISI.tStartRefresh)
+    trial.addData('ISI.stopped', ISI.tStopRefresh)
+    
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -3922,7 +3900,7 @@ for thisTrial in trial:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -3955,81 +3933,15 @@ for thisTrial in trial:
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    trial.addData('text_2.started', text_2.tStartRefresh)
-    trial.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'trial'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -4066,7 +3978,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -4116,8 +4028,73 @@ for thisTrial_2 in trial_2:
         for paramName in thisTrial_2:
             exec('{} = thisTrial_2[paramName]'.format(paramName))
     
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    trial_2.addData('ISI.started', ISI.tStartRefresh)
+    trial_2.addData('ISI.stopped', ISI.tStopRefresh)
+    
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -4155,7 +4132,7 @@ for thisTrial_2 in trial_2:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -4188,81 +4165,15 @@ for thisTrial_2 in trial_2:
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    trial_2.addData('text_2.started', text_2.tStartRefresh)
-    trial_2.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'trial_2'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -4299,7 +4210,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -4349,8 +4260,73 @@ for thisTrial_3 in trials_3:
         for paramName in thisTrial_3:
             exec('{} = thisTrial_3[paramName]'.format(paramName))
     
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    trials_3.addData('ISI.started', ISI.tStartRefresh)
+    trials_3.addData('ISI.stopped', ISI.tStopRefresh)
+    
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -4388,7 +4364,7 @@ for thisTrial_3 in trials_3:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -4421,81 +4397,15 @@ for thisTrial_3 in trials_3:
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    trials_3.addData('text_2.started', text_2.tStartRefresh)
-    trials_3.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'trials_3'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -4532,7 +4442,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -4564,7 +4474,7 @@ thisExp.addData('text_4.started', text_4.tStartRefresh)
 thisExp.addData('text_4.stopped', text_4.tStopRefresh)
 
 # set up handler to look after randomisation of conditions etc
-threeHappyblocks = data.TrialHandler(nReps=1, method='random', 
+threeHappyblocks = data.TrialHandler(nReps=2, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=[None],
     seed=None, name='threeHappyblocks')
@@ -4601,8 +4511,73 @@ for thisThreeHappyblock in threeHappyblocks:
             for paramName in thisTrial_4:
                 exec('{} = thisTrial_4[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        trials_4.addData('ISI.started', ISI.tStartRefresh)
+        trials_4.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -4640,7 +4615,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -4673,81 +4648,15 @@ for thisThreeHappyblock in threeHappyblocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        trials_4.addData('text_2.started', text_2.tStartRefresh)
-        trials_4.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'trials_4'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -4784,7 +4693,7 @@ for thisThreeHappyblock in threeHappyblocks:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -4834,8 +4743,73 @@ for thisThreeHappyblock in threeHappyblocks:
             for paramName in thisTrial_5:
                 exec('{} = thisTrial_5[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        trials_5.addData('ISI.started', ISI.tStartRefresh)
+        trials_5.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -4873,7 +4847,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -4906,81 +4880,15 @@ for thisThreeHappyblock in threeHappyblocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        trials_5.addData('text_2.started', text_2.tStartRefresh)
-        trials_5.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'trials_5'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -5017,7 +4925,7 @@ for thisThreeHappyblock in threeHappyblocks:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -5067,8 +4975,73 @@ for thisThreeHappyblock in threeHappyblocks:
             for paramName in thisTrial_6:
                 exec('{} = thisTrial_6[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        trials_6.addData('ISI.started', ISI.tStartRefresh)
+        trials_6.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -5106,7 +5079,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -5139,81 +5112,15 @@ for thisThreeHappyblock in threeHappyblocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        trials_6.addData('text_2.started', text_2.tStartRefresh)
-        trials_6.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'trials_6'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -5250,7 +5157,7 @@ for thisThreeHappyblock in threeHappyblocks:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -5300,8 +5207,73 @@ for thisThreeHappyblock in threeHappyblocks:
             for paramName in thisTrial_7:
                 exec('{} = thisTrial_7[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        trials_7.addData('ISI.started', ISI.tStartRefresh)
+        trials_7.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -5339,7 +5311,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -5372,81 +5344,15 @@ for thisThreeHappyblock in threeHappyblocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        trials_7.addData('text_2.started', text_2.tStartRefresh)
-        trials_7.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'trials_7'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -5483,7 +5389,7 @@ for thisThreeHappyblock in threeHappyblocks:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -5533,8 +5439,73 @@ for thisThreeHappyblock in threeHappyblocks:
             for paramName in thisTrial_8:
                 exec('{} = thisTrial_8[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        trials_8.addData('ISI.started', ISI.tStartRefresh)
+        trials_8.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -5572,7 +5543,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -5605,81 +5576,15 @@ for thisThreeHappyblock in threeHappyblocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        trials_8.addData('text_2.started', text_2.tStartRefresh)
-        trials_8.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'trials_8'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -5716,7 +5621,7 @@ for thisThreeHappyblock in threeHappyblocks:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -5766,8 +5671,73 @@ for thisThreeHappyblock in threeHappyblocks:
             for paramName in thisTrial_9:
                 exec('{} = thisTrial_9[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        trials_9.addData('ISI.started', ISI.tStartRefresh)
+        trials_9.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -5805,7 +5775,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -5838,81 +5808,15 @@ for thisThreeHappyblock in threeHappyblocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        trials_9.addData('text_2.started', text_2.tStartRefresh)
-        trials_9.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'trials_9'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -5949,7 +5853,7 @@ for thisThreeHappyblock in threeHappyblocks:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -5999,8 +5903,73 @@ for thisThreeHappyblock in threeHappyblocks:
             for paramName in thisTrial_10:
                 exec('{} = thisTrial_10[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        trials_10.addData('ISI.started', ISI.tStartRefresh)
+        trials_10.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -6038,7 +6007,7 @@ for thisThreeHappyblock in threeHappyblocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -6071,81 +6040,84 @@ for thisThreeHappyblock in threeHappyblocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        trials_10.addData('text_2.started', text_2.tStartRefresh)
-        trials_10.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'trials_10'
     
+    
+    # ------Prepare to start Routine "blank5s"-------
+    routineTimer.add(0.500000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blank5sComponents = [text_4]
+    for thisComponent in blank5sComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blank5sClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank5s"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blank5sClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blank5sClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *text_4* updates
+        if text_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            text_4.frameNStart = frameN  # exact frame index
+            text_4.tStart = t  # local t and not account for scr refresh
+            text_4.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(text_4, 'tStartRefresh')  # time at next scr refresh
+            text_4.setAutoDraw(True)
+        if text_4.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
+                # keep track of stop time/frame for later
+                text_4.tStop = t  # not accounting for scr refresh
+                text_4.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(text_4, 'tStopRefresh')  # time at next scr refresh
+                text_4.setAutoDraw(False)
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blank5sComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank5s"-------
+    for thisComponent in blank5sComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    threeHappyblocks.addData('text_4.started', text_4.tStartRefresh)
+    threeHappyblocks.addData('text_4.stopped', text_4.tStopRefresh)
     thisExp.nextEntry()
     
-# completed 1 repeats of 'threeHappyblocks'
+# completed 2 repeats of 'threeHappyblocks'
 
 
 # ------Prepare to start Routine "rest"-------
@@ -6266,8 +6238,73 @@ for thisSadTrials_ in sadTrials_:
         for paramName in thisSadTrials_:
             exec('{} = thisSadTrials_[paramName]'.format(paramName))
     
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    sadTrials_.addData('ISI.started', ISI.tStartRefresh)
+    sadTrials_.addData('ISI.stopped', ISI.tStopRefresh)
+    
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -6305,7 +6342,7 @@ for thisSadTrials_ in sadTrials_:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -6338,81 +6375,15 @@ for thisSadTrials_ in sadTrials_:
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    sadTrials_.addData('text_2.started', text_2.tStartRefresh)
-    sadTrials_.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'sadTrials_'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -6449,7 +6420,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -6481,7 +6452,7 @@ thisExp.addData('text_4.started', text_4.tStartRefresh)
 thisExp.addData('text_4.stopped', text_4.tStopRefresh)
 
 # set up handler to look after randomisation of conditions etc
-sadTrials_2 = data.TrialHandler(nReps=5, method='random', 
+sadTrials_2 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=data.importConditions('sadNeutral.xlsx', selection='10:20'),
     seed=None, name='sadTrials_2')
@@ -6499,8 +6470,73 @@ for thisSadTrial_2 in sadTrials_2:
         for paramName in thisSadTrial_2:
             exec('{} = thisSadTrial_2[paramName]'.format(paramName))
     
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    sadTrials_2.addData('ISI.started', ISI.tStartRefresh)
+    sadTrials_2.addData('ISI.stopped', ISI.tStopRefresh)
+    
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -6538,7 +6574,7 @@ for thisSadTrial_2 in sadTrials_2:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -6571,81 +6607,15 @@ for thisSadTrial_2 in sadTrials_2:
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    sadTrials_2.addData('text_2.started', text_2.tStartRefresh)
-    sadTrials_2.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
-# completed 5 repeats of 'sadTrials_2'
+# completed 1 repeats of 'sadTrials_2'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -6682,7 +6652,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -6732,8 +6702,73 @@ for thisSadTrial_3 in sadTrials_3:
         for paramName in thisSadTrial_3:
             exec('{} = thisSadTrial_3[paramName]'.format(paramName))
     
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    sadTrials_3.addData('ISI.started', ISI.tStartRefresh)
+    sadTrials_3.addData('ISI.stopped', ISI.tStopRefresh)
+    
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -6771,7 +6806,7 @@ for thisSadTrial_3 in sadTrials_3:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -6804,81 +6839,15 @@ for thisSadTrial_3 in sadTrials_3:
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    sadTrials_3.addData('text_2.started', text_2.tStartRefresh)
-    sadTrials_3.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'sadTrials_3'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -6915,7 +6884,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -6947,7 +6916,7 @@ thisExp.addData('text_4.started', text_4.tStartRefresh)
 thisExp.addData('text_4.stopped', text_4.tStopRefresh)
 
 # set up handler to look after randomisation of conditions etc
-threeSadBlocks = data.TrialHandler(nReps=1, method='random', 
+threeSadBlocks = data.TrialHandler(nReps=2, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=[None],
     seed=None, name='threeSadBlocks')
@@ -6984,8 +6953,73 @@ for thisThreeSadBlock in threeSadBlocks:
             for paramName in thisSadTrial_4:
                 exec('{} = thisSadTrial_4[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        sadTrials_4.addData('ISI.started', ISI.tStartRefresh)
+        sadTrials_4.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -7023,7 +7057,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -7056,81 +7090,15 @@ for thisThreeSadBlock in threeSadBlocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        sadTrials_4.addData('text_2.started', text_2.tStartRefresh)
-        sadTrials_4.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'sadTrials_4'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -7167,7 +7135,7 @@ for thisThreeSadBlock in threeSadBlocks:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -7217,8 +7185,73 @@ for thisThreeSadBlock in threeSadBlocks:
             for paramName in thisSadTrial_5:
                 exec('{} = thisSadTrial_5[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        sadTrials_5.addData('ISI.started', ISI.tStartRefresh)
+        sadTrials_5.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -7256,7 +7289,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -7289,81 +7322,15 @@ for thisThreeSadBlock in threeSadBlocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        sadTrials_5.addData('text_2.started', text_2.tStartRefresh)
-        sadTrials_5.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'sadTrials_5'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -7400,7 +7367,7 @@ for thisThreeSadBlock in threeSadBlocks:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -7450,8 +7417,73 @@ for thisThreeSadBlock in threeSadBlocks:
             for paramName in thisSasdTrial_6:
                 exec('{} = thisSasdTrial_6[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        sasdTrials_6.addData('ISI.started', ISI.tStartRefresh)
+        sasdTrials_6.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -7489,7 +7521,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -7522,81 +7554,15 @@ for thisThreeSadBlock in threeSadBlocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        sasdTrials_6.addData('text_2.started', text_2.tStartRefresh)
-        sasdTrials_6.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'sasdTrials_6'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -7633,7 +7599,7 @@ for thisThreeSadBlock in threeSadBlocks:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -7683,8 +7649,73 @@ for thisThreeSadBlock in threeSadBlocks:
             for paramName in thisSadTrial_7:
                 exec('{} = thisSadTrial_7[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        sadTrials_7.addData('ISI.started', ISI.tStartRefresh)
+        sadTrials_7.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -7722,7 +7753,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -7755,81 +7786,15 @@ for thisThreeSadBlock in threeSadBlocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        sadTrials_7.addData('text_2.started', text_2.tStartRefresh)
-        sadTrials_7.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'sadTrials_7'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -7866,7 +7831,7 @@ for thisThreeSadBlock in threeSadBlocks:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -7916,8 +7881,73 @@ for thisThreeSadBlock in threeSadBlocks:
             for paramName in thisSadTrial_8:
                 exec('{} = thisSadTrial_8[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        sadTrials_8.addData('ISI.started', ISI.tStartRefresh)
+        sadTrials_8.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -7955,7 +7985,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -7988,81 +8018,15 @@ for thisThreeSadBlock in threeSadBlocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        sadTrials_8.addData('text_2.started', text_2.tStartRefresh)
-        sadTrials_8.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'sadTrials_8'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -8099,7 +8063,7 @@ for thisThreeSadBlock in threeSadBlocks:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -8149,8 +8113,73 @@ for thisThreeSadBlock in threeSadBlocks:
             for paramName in thisSadTrial_9:
                 exec('{} = thisSadTrial_9[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        sadTrials_9.addData('ISI.started', ISI.tStartRefresh)
+        sadTrials_9.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -8188,7 +8217,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -8221,81 +8250,15 @@ for thisThreeSadBlock in threeSadBlocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        sadTrials_9.addData('text_2.started', text_2.tStartRefresh)
-        sadTrials_9.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'sadTrials_9'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -8332,7 +8295,7 @@ for thisThreeSadBlock in threeSadBlocks:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -8382,8 +8345,73 @@ for thisThreeSadBlock in threeSadBlocks:
             for paramName in thisSadTrial_10:
                 exec('{} = thisSadTrial_10[paramName]'.format(paramName))
         
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        sadTrials_10.addData('ISI.started', ISI.tStartRefresh)
+        sadTrials_10.addData('ISI.stopped', ISI.tStopRefresh)
+        
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -8421,7 +8449,7 @@ for thisThreeSadBlock in threeSadBlocks:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -8454,81 +8482,84 @@ for thisThreeSadBlock in threeSadBlocks:
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        sadTrials_10.addData('text_2.started', text_2.tStartRefresh)
-        sadTrials_10.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
     # completed 1 repeats of 'sadTrials_10'
     
+    
+    # ------Prepare to start Routine "blank5s"-------
+    routineTimer.add(0.500000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blank5sComponents = [text_4]
+    for thisComponent in blank5sComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blank5sClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank5s"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blank5sClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blank5sClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *text_4* updates
+        if text_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            text_4.frameNStart = frameN  # exact frame index
+            text_4.tStart = t  # local t and not account for scr refresh
+            text_4.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(text_4, 'tStartRefresh')  # time at next scr refresh
+            text_4.setAutoDraw(True)
+        if text_4.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
+                # keep track of stop time/frame for later
+                text_4.tStop = t  # not accounting for scr refresh
+                text_4.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(text_4, 'tStopRefresh')  # time at next scr refresh
+                text_4.setAutoDraw(False)
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blank5sComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank5s"-------
+    for thisComponent in blank5sComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    threeSadBlocks.addData('text_4.started', text_4.tStartRefresh)
+    threeSadBlocks.addData('text_4.stopped', text_4.tStopRefresh)
     thisExp.nextEntry()
     
-# completed 1 repeats of 'threeSadBlocks'
+# completed 2 repeats of 'threeSadBlocks'
 
 
 # ------Prepare to start Routine "rest"-------
@@ -8631,26 +8662,91 @@ thisExp.nextEntry()
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-oneHFiveN = data.TrialHandler(nReps=1, method='random', 
+oneHSixN = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('1happy5Neut.xlsx', selection='0:6'),
-    seed=None, name='oneHFiveN')
-thisExp.addLoop(oneHFiveN)  # add the loop to the experiment
-thisOneHFiveN = oneHFiveN.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN.rgb)
-if thisOneHFiveN != None:
-    for paramName in thisOneHFiveN:
-        exec('{} = thisOneHFiveN[paramName]'.format(paramName))
+    trialList=data.importConditions('1happy6Neut.xlsx', selection='0:14'),
+    seed=None, name='oneHSixN')
+thisExp.addLoop(oneHSixN)  # add the loop to the experiment
+thisOneHSixN = oneHSixN.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisOneHSixN.rgb)
+if thisOneHSixN != None:
+    for paramName in thisOneHSixN:
+        exec('{} = thisOneHSixN[paramName]'.format(paramName))
 
-for thisOneHFiveN in oneHFiveN:
-    currentLoop = oneHFiveN
-    # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN.rgb)
-    if thisOneHFiveN != None:
-        for paramName in thisOneHFiveN:
-            exec('{} = thisOneHFiveN[paramName]'.format(paramName))
+for thisOneHSixN in oneHSixN:
+    currentLoop = oneHSixN
+    # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN.rgb)
+    if thisOneHSixN != None:
+        for paramName in thisOneHSixN:
+            exec('{} = thisOneHSixN[paramName]'.format(paramName))
+    
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    oneHSixN.addData('ISI.started', ISI.tStartRefresh)
+    oneHSixN.addData('ISI.stopped', ISI.tStopRefresh)
     
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -8688,7 +8784,7 @@ for thisOneHFiveN in oneHFiveN:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -8716,86 +8812,20 @@ for thisOneHFiveN in oneHFiveN:
     for thisComponent in imageStudyComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    oneHFiveN.addData('image_5.started', image_5.tStartRefresh)
-    oneHFiveN.addData('image_5.stopped', image_5.tStopRefresh)
+    oneHSixN.addData('image_5.started', image_5.tStartRefresh)
+    oneHSixN.addData('image_5.stopped', image_5.tStopRefresh)
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    oneHFiveN.addData('text_2.started', text_2.tStartRefresh)
-    oneHFiveN.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
-# completed 1 repeats of 'oneHFiveN'
+# completed 1 repeats of 'oneHSixN'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -8832,7 +8862,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -8864,26 +8894,91 @@ thisExp.addData('text_4.started', text_4.tStartRefresh)
 thisExp.addData('text_4.stopped', text_4.tStopRefresh)
 
 # set up handler to look after randomisation of conditions etc
-oneHFiveN_2 = data.TrialHandler(nReps=1, method='random', 
+oneHSixN_2 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('1happy5Neut.xlsx', selection='6:12'),
-    seed=None, name='oneHFiveN_2')
-thisExp.addLoop(oneHFiveN_2)  # add the loop to the experiment
-thisOneHFiveN_2 = oneHFiveN_2.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_2.rgb)
-if thisOneHFiveN_2 != None:
-    for paramName in thisOneHFiveN_2:
-        exec('{} = thisOneHFiveN_2[paramName]'.format(paramName))
+    trialList=data.importConditions('1happy6Neut.xlsx', selection='14:28'),
+    seed=None, name='oneHSixN_2')
+thisExp.addLoop(oneHSixN_2)  # add the loop to the experiment
+thisOneHSixN_2 = oneHSixN_2.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_2.rgb)
+if thisOneHSixN_2 != None:
+    for paramName in thisOneHSixN_2:
+        exec('{} = thisOneHSixN_2[paramName]'.format(paramName))
 
-for thisOneHFiveN_2 in oneHFiveN_2:
-    currentLoop = oneHFiveN_2
-    # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_2.rgb)
-    if thisOneHFiveN_2 != None:
-        for paramName in thisOneHFiveN_2:
-            exec('{} = thisOneHFiveN_2[paramName]'.format(paramName))
+for thisOneHSixN_2 in oneHSixN_2:
+    currentLoop = oneHSixN_2
+    # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_2.rgb)
+    if thisOneHSixN_2 != None:
+        for paramName in thisOneHSixN_2:
+            exec('{} = thisOneHSixN_2[paramName]'.format(paramName))
+    
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    oneHSixN_2.addData('ISI.started', ISI.tStartRefresh)
+    oneHSixN_2.addData('ISI.stopped', ISI.tStopRefresh)
     
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -8921,7 +9016,7 @@ for thisOneHFiveN_2 in oneHFiveN_2:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -8949,86 +9044,20 @@ for thisOneHFiveN_2 in oneHFiveN_2:
     for thisComponent in imageStudyComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    oneHFiveN_2.addData('image_5.started', image_5.tStartRefresh)
-    oneHFiveN_2.addData('image_5.stopped', image_5.tStopRefresh)
+    oneHSixN_2.addData('image_5.started', image_5.tStartRefresh)
+    oneHSixN_2.addData('image_5.stopped', image_5.tStopRefresh)
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    oneHFiveN_2.addData('text_2.started', text_2.tStartRefresh)
-    oneHFiveN_2.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
-# completed 1 repeats of 'oneHFiveN_2'
+# completed 1 repeats of 'oneHSixN_2'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -9065,7 +9094,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -9097,26 +9126,91 @@ thisExp.addData('text_4.started', text_4.tStartRefresh)
 thisExp.addData('text_4.stopped', text_4.tStopRefresh)
 
 # set up handler to look after randomisation of conditions etc
-oneHFiveN_3 = data.TrialHandler(nReps=5, method='random', 
+oneHSixN_3 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('1happy5Neut.xlsx', selection='12:18'),
-    seed=None, name='oneHFiveN_3')
-thisExp.addLoop(oneHFiveN_3)  # add the loop to the experiment
-thisOneHFiveN_3 = oneHFiveN_3.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_3.rgb)
-if thisOneHFiveN_3 != None:
-    for paramName in thisOneHFiveN_3:
-        exec('{} = thisOneHFiveN_3[paramName]'.format(paramName))
+    trialList=data.importConditions('1happy6Neut.xlsx', selection='28:42'),
+    seed=None, name='oneHSixN_3')
+thisExp.addLoop(oneHSixN_3)  # add the loop to the experiment
+thisOneHSixN_3 = oneHSixN_3.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_3.rgb)
+if thisOneHSixN_3 != None:
+    for paramName in thisOneHSixN_3:
+        exec('{} = thisOneHSixN_3[paramName]'.format(paramName))
 
-for thisOneHFiveN_3 in oneHFiveN_3:
-    currentLoop = oneHFiveN_3
-    # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_3.rgb)
-    if thisOneHFiveN_3 != None:
-        for paramName in thisOneHFiveN_3:
-            exec('{} = thisOneHFiveN_3[paramName]'.format(paramName))
+for thisOneHSixN_3 in oneHSixN_3:
+    currentLoop = oneHSixN_3
+    # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_3.rgb)
+    if thisOneHSixN_3 != None:
+        for paramName in thisOneHSixN_3:
+            exec('{} = thisOneHSixN_3[paramName]'.format(paramName))
+    
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    oneHSixN_3.addData('ISI.started', ISI.tStartRefresh)
+    oneHSixN_3.addData('ISI.stopped', ISI.tStopRefresh)
     
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -9154,7 +9248,7 @@ for thisOneHFiveN_3 in oneHFiveN_3:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -9182,86 +9276,20 @@ for thisOneHFiveN_3 in oneHFiveN_3:
     for thisComponent in imageStudyComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    oneHFiveN_3.addData('image_5.started', image_5.tStartRefresh)
-    oneHFiveN_3.addData('image_5.stopped', image_5.tStopRefresh)
+    oneHSixN_3.addData('image_5.started', image_5.tStartRefresh)
+    oneHSixN_3.addData('image_5.stopped', image_5.tStopRefresh)
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    oneHFiveN_3.addData('text_2.started', text_2.tStartRefresh)
-    oneHFiveN_3.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
-# completed 5 repeats of 'oneHFiveN_3'
+# completed 1 repeats of 'oneHSixN_3'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -9298,7 +9326,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -9330,45 +9358,342 @@ thisExp.addData('text_4.started', text_4.tStartRefresh)
 thisExp.addData('text_4.stopped', text_4.tStopRefresh)
 
 # set up handler to look after randomisation of conditions etc
-oneHappy5Neutral = data.TrialHandler(nReps=1, method='random', 
+oneHSixN_4 = data.TrialHandler(nReps=1, method='random', 
+    extraInfo=expInfo, originPath=-1,
+    trialList=data.importConditions('1happy6Neut.xlsx', selection='42:56'),
+    seed=None, name='oneHSixN_4')
+thisExp.addLoop(oneHSixN_4)  # add the loop to the experiment
+thisOneHSixN_4 = oneHSixN_4.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_4.rgb)
+if thisOneHSixN_4 != None:
+    for paramName in thisOneHSixN_4:
+        exec('{} = thisOneHSixN_4[paramName]'.format(paramName))
+
+for thisOneHSixN_4 in oneHSixN_4:
+    currentLoop = oneHSixN_4
+    # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_4.rgb)
+    if thisOneHSixN_4 != None:
+        for paramName in thisOneHSixN_4:
+            exec('{} = thisOneHSixN_4[paramName]'.format(paramName))
+    
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    oneHSixN_4.addData('ISI.started', ISI.tStartRefresh)
+    oneHSixN_4.addData('ISI.stopped', ISI.tStopRefresh)
+    
+    # ------Prepare to start Routine "imageStudy"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    beginRout = time.time()
+    # keep track of which components have finished
+    imageStudyComponents = [image_5]
+    for thisComponent in imageStudyComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    imageStudyClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "imageStudy"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = imageStudyClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *image_5* updates
+        if image_5.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+            # keep track of start time/frame for later
+            image_5.frameNStart = frameN  # exact frame index
+            image_5.tStart = t  # local t and not account for scr refresh
+            image_5.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
+            image_5.setAutoDraw(True)
+        if image_5.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
+                # keep track of stop time/frame for later
+                image_5.tStop = t  # not accounting for scr refresh
+                image_5.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
+                image_5.setAutoDraw(False)
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in imageStudyComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "imageStudy"-------
+    for thisComponent in imageStudyComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    oneHSixN_4.addData('image_5.started', image_5.tStartRefresh)
+    oneHSixN_4.addData('image_5.stopped', image_5.tStopRefresh)
+    print("Duration since Experiment start:", time.time() - beginExp)
+    print("Duration since Routine start:" , time.time() - beginRout)
+    
+    count += 1
+    print("Current Count:" , count)
+    thisExp.nextEntry()
+    
+# completed 1 repeats of 'oneHSixN_4'
+
+
+# ------Prepare to start Routine "blank5s"-------
+routineTimer.add(0.500000)
+# update component parameters for each repeat
+# keep track of which components have finished
+blank5sComponents = [text_4]
+for thisComponent in blank5sComponents:
+    thisComponent.tStart = None
+    thisComponent.tStop = None
+    thisComponent.tStartRefresh = None
+    thisComponent.tStopRefresh = None
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+# reset timers
+t = 0
+_timeToFirstFrame = win.getFutureFlipTime(clock="now")
+blank5sClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+frameN = -1
+continueRoutine = True
+
+# -------Run Routine "blank5s"-------
+while continueRoutine and routineTimer.getTime() > 0:
+    # get current time
+    t = blank5sClock.getTime()
+    tThisFlip = win.getFutureFlipTime(clock=blank5sClock)
+    tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # *text_4* updates
+    if text_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        text_4.frameNStart = frameN  # exact frame index
+        text_4.tStart = t  # local t and not account for scr refresh
+        text_4.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(text_4, 'tStartRefresh')  # time at next scr refresh
+        text_4.setAutoDraw(True)
+    if text_4.status == STARTED:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
+            # keep track of stop time/frame for later
+            text_4.tStop = t  # not accounting for scr refresh
+            text_4.frameNStop = frameN  # exact frame index
+            win.timeOnFlip(text_4, 'tStopRefresh')  # time at next scr refresh
+            text_4.setAutoDraw(False)
+    
+    # check for quit (typically the Esc key)
+    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in blank5sComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "blank5s"-------
+for thisComponent in blank5sComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+thisExp.addData('text_4.started', text_4.tStartRefresh)
+thisExp.addData('text_4.stopped', text_4.tStopRefresh)
+
+# set up handler to look after randomisation of conditions etc
+oneHappy5Neutral_21_trials = data.TrialHandler(nReps=3, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=[None],
-    seed=None, name='oneHappy5Neutral')
-thisExp.addLoop(oneHappy5Neutral)  # add the loop to the experiment
-thisOneHappy5Neutral = oneHappy5Neutral.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisOneHappy5Neutral.rgb)
-if thisOneHappy5Neutral != None:
-    for paramName in thisOneHappy5Neutral:
-        exec('{} = thisOneHappy5Neutral[paramName]'.format(paramName))
+    seed=None, name='oneHappy5Neutral_21_trials')
+thisExp.addLoop(oneHappy5Neutral_21_trials)  # add the loop to the experiment
+thisOneHappy5Neutral_21_trial = oneHappy5Neutral_21_trials.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisOneHappy5Neutral_21_trial.rgb)
+if thisOneHappy5Neutral_21_trial != None:
+    for paramName in thisOneHappy5Neutral_21_trial:
+        exec('{} = thisOneHappy5Neutral_21_trial[paramName]'.format(paramName))
 
-for thisOneHappy5Neutral in oneHappy5Neutral:
-    currentLoop = oneHappy5Neutral
-    # abbreviate parameter names if possible (e.g. rgb = thisOneHappy5Neutral.rgb)
-    if thisOneHappy5Neutral != None:
-        for paramName in thisOneHappy5Neutral:
-            exec('{} = thisOneHappy5Neutral[paramName]'.format(paramName))
+for thisOneHappy5Neutral_21_trial in oneHappy5Neutral_21_trials:
+    currentLoop = oneHappy5Neutral_21_trials
+    # abbreviate parameter names if possible (e.g. rgb = thisOneHappy5Neutral_21_trial.rgb)
+    if thisOneHappy5Neutral_21_trial != None:
+        for paramName in thisOneHappy5Neutral_21_trial:
+            exec('{} = thisOneHappy5Neutral_21_trial[paramName]'.format(paramName))
     
     # set up handler to look after randomisation of conditions etc
-    oneHFiveN_4 = data.TrialHandler(nReps=1, method='random', 
+    oneHSixN_5 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1happy5Neut.xlsx', selection='18:24'),
-        seed=None, name='oneHFiveN_4')
-    thisExp.addLoop(oneHFiveN_4)  # add the loop to the experiment
-    thisOneHFiveN_4 = oneHFiveN_4.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_4.rgb)
-    if thisOneHFiveN_4 != None:
-        for paramName in thisOneHFiveN_4:
-            exec('{} = thisOneHFiveN_4[paramName]'.format(paramName))
+        trialList=data.importConditions('1happy6Neut.xlsx', selection='56:70'),
+        seed=None, name='oneHSixN_5')
+    thisExp.addLoop(oneHSixN_5)  # add the loop to the experiment
+    thisOneHSixN_5 = oneHSixN_5.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_5.rgb)
+    if thisOneHSixN_5 != None:
+        for paramName in thisOneHSixN_5:
+            exec('{} = thisOneHSixN_5[paramName]'.format(paramName))
     
-    for thisOneHFiveN_4 in oneHFiveN_4:
-        currentLoop = oneHFiveN_4
-        # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_4.rgb)
-        if thisOneHFiveN_4 != None:
-            for paramName in thisOneHFiveN_4:
-                exec('{} = thisOneHFiveN_4[paramName]'.format(paramName))
+    for thisOneHSixN_5 in oneHSixN_5:
+        currentLoop = oneHSixN_5
+        # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_5.rgb)
+        if thisOneHSixN_5 != None:
+            for paramName in thisOneHSixN_5:
+                exec('{} = thisOneHSixN_5[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneHSixN_5.addData('ISI.started', ISI.tStartRefresh)
+        oneHSixN_5.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -9406,7 +9731,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -9434,86 +9759,20 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneHFiveN_4.addData('image_5.started', image_5.tStartRefresh)
-        oneHFiveN_4.addData('image_5.stopped', image_5.tStopRefresh)
+        oneHSixN_5.addData('image_5.started', image_5.tStartRefresh)
+        oneHSixN_5.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneHFiveN_4.addData('text_2.started', text_2.tStartRefresh)
-        oneHFiveN_4.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneHFiveN_4'
+    # completed 1 repeats of 'oneHSixN_5'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -9550,7 +9809,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -9578,30 +9837,95 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
     for thisComponent in blank5sComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    oneHappy5Neutral.addData('text_4.started', text_4.tStartRefresh)
-    oneHappy5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.started', text_4.tStartRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.stopped', text_4.tStopRefresh)
     
     # set up handler to look after randomisation of conditions etc
-    oneHFiveN_5 = data.TrialHandler(nReps=1, method='random', 
+    oneHSixN_6 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1happy5Neut.xlsx', selection='24:30'),
-        seed=None, name='oneHFiveN_5')
-    thisExp.addLoop(oneHFiveN_5)  # add the loop to the experiment
-    thisOneHFiveN_5 = oneHFiveN_5.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_5.rgb)
-    if thisOneHFiveN_5 != None:
-        for paramName in thisOneHFiveN_5:
-            exec('{} = thisOneHFiveN_5[paramName]'.format(paramName))
+        trialList=data.importConditions('1happy6Neut.xlsx', selection='7:21'),
+        seed=None, name='oneHSixN_6')
+    thisExp.addLoop(oneHSixN_6)  # add the loop to the experiment
+    thisOneHSixN_6 = oneHSixN_6.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_6.rgb)
+    if thisOneHSixN_6 != None:
+        for paramName in thisOneHSixN_6:
+            exec('{} = thisOneHSixN_6[paramName]'.format(paramName))
     
-    for thisOneHFiveN_5 in oneHFiveN_5:
-        currentLoop = oneHFiveN_5
-        # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_5.rgb)
-        if thisOneHFiveN_5 != None:
-            for paramName in thisOneHFiveN_5:
-                exec('{} = thisOneHFiveN_5[paramName]'.format(paramName))
+    for thisOneHSixN_6 in oneHSixN_6:
+        currentLoop = oneHSixN_6
+        # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_6.rgb)
+        if thisOneHSixN_6 != None:
+            for paramName in thisOneHSixN_6:
+                exec('{} = thisOneHSixN_6[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneHSixN_6.addData('ISI.started', ISI.tStartRefresh)
+        oneHSixN_6.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -9639,7 +9963,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -9667,86 +9991,20 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneHFiveN_5.addData('image_5.started', image_5.tStartRefresh)
-        oneHFiveN_5.addData('image_5.stopped', image_5.tStopRefresh)
+        oneHSixN_6.addData('image_5.started', image_5.tStartRefresh)
+        oneHSixN_6.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneHFiveN_5.addData('text_2.started', text_2.tStartRefresh)
-        oneHFiveN_5.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneHFiveN_5'
+    # completed 1 repeats of 'oneHSixN_6'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -9783,7 +10041,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -9811,30 +10069,95 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
     for thisComponent in blank5sComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    oneHappy5Neutral.addData('text_4.started', text_4.tStartRefresh)
-    oneHappy5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.started', text_4.tStartRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.stopped', text_4.tStopRefresh)
     
     # set up handler to look after randomisation of conditions etc
-    oneHFiveN_6 = data.TrialHandler(nReps=1, method='random', 
+    oneHSixN_7 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1happy5Neut.xlsx', selection='30:36'),
-        seed=None, name='oneHFiveN_6')
-    thisExp.addLoop(oneHFiveN_6)  # add the loop to the experiment
-    thisOneHFiveN_6 = oneHFiveN_6.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_6.rgb)
-    if thisOneHFiveN_6 != None:
-        for paramName in thisOneHFiveN_6:
-            exec('{} = thisOneHFiveN_6[paramName]'.format(paramName))
+        trialList=data.importConditions('1happy6Neut.xlsx', selection='21:35'),
+        seed=None, name='oneHSixN_7')
+    thisExp.addLoop(oneHSixN_7)  # add the loop to the experiment
+    thisOneHSixN_7 = oneHSixN_7.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_7.rgb)
+    if thisOneHSixN_7 != None:
+        for paramName in thisOneHSixN_7:
+            exec('{} = thisOneHSixN_7[paramName]'.format(paramName))
     
-    for thisOneHFiveN_6 in oneHFiveN_6:
-        currentLoop = oneHFiveN_6
-        # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_6.rgb)
-        if thisOneHFiveN_6 != None:
-            for paramName in thisOneHFiveN_6:
-                exec('{} = thisOneHFiveN_6[paramName]'.format(paramName))
+    for thisOneHSixN_7 in oneHSixN_7:
+        currentLoop = oneHSixN_7
+        # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_7.rgb)
+        if thisOneHSixN_7 != None:
+            for paramName in thisOneHSixN_7:
+                exec('{} = thisOneHSixN_7[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneHSixN_7.addData('ISI.started', ISI.tStartRefresh)
+        oneHSixN_7.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -9872,7 +10195,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -9900,86 +10223,20 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneHFiveN_6.addData('image_5.started', image_5.tStartRefresh)
-        oneHFiveN_6.addData('image_5.stopped', image_5.tStopRefresh)
+        oneHSixN_7.addData('image_5.started', image_5.tStartRefresh)
+        oneHSixN_7.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneHFiveN_6.addData('text_2.started', text_2.tStartRefresh)
-        oneHFiveN_6.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneHFiveN_6'
+    # completed 1 repeats of 'oneHSixN_7'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -10016,7 +10273,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -10044,30 +10301,95 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
     for thisComponent in blank5sComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    oneHappy5Neutral.addData('text_4.started', text_4.tStartRefresh)
-    oneHappy5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.started', text_4.tStartRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.stopped', text_4.tStopRefresh)
     
     # set up handler to look after randomisation of conditions etc
-    oneHFiveN_7 = data.TrialHandler(nReps=1, method='random', 
+    oneHSixN_8 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1happy5Neut.xlsx', selection='36:42'),
-        seed=None, name='oneHFiveN_7')
-    thisExp.addLoop(oneHFiveN_7)  # add the loop to the experiment
-    thisOneHFiveN_7 = oneHFiveN_7.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_7.rgb)
-    if thisOneHFiveN_7 != None:
-        for paramName in thisOneHFiveN_7:
-            exec('{} = thisOneHFiveN_7[paramName]'.format(paramName))
+        trialList=data.importConditions('1happy6Neut.xlsx', selection='35:49'),
+        seed=None, name='oneHSixN_8')
+    thisExp.addLoop(oneHSixN_8)  # add the loop to the experiment
+    thisOneHSixN_8 = oneHSixN_8.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_8.rgb)
+    if thisOneHSixN_8 != None:
+        for paramName in thisOneHSixN_8:
+            exec('{} = thisOneHSixN_8[paramName]'.format(paramName))
     
-    for thisOneHFiveN_7 in oneHFiveN_7:
-        currentLoop = oneHFiveN_7
-        # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_7.rgb)
-        if thisOneHFiveN_7 != None:
-            for paramName in thisOneHFiveN_7:
-                exec('{} = thisOneHFiveN_7[paramName]'.format(paramName))
+    for thisOneHSixN_8 in oneHSixN_8:
+        currentLoop = oneHSixN_8
+        # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_8.rgb)
+        if thisOneHSixN_8 != None:
+            for paramName in thisOneHSixN_8:
+                exec('{} = thisOneHSixN_8[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneHSixN_8.addData('ISI.started', ISI.tStartRefresh)
+        oneHSixN_8.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -10105,7 +10427,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -10133,86 +10455,20 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneHFiveN_7.addData('image_5.started', image_5.tStartRefresh)
-        oneHFiveN_7.addData('image_5.stopped', image_5.tStopRefresh)
+        oneHSixN_8.addData('image_5.started', image_5.tStartRefresh)
+        oneHSixN_8.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneHFiveN_7.addData('text_2.started', text_2.tStartRefresh)
-        oneHFiveN_7.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneHFiveN_7'
+    # completed 1 repeats of 'oneHSixN_8'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -10249,7 +10505,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -10277,30 +10533,95 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
     for thisComponent in blank5sComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    oneHappy5Neutral.addData('text_4.started', text_4.tStartRefresh)
-    oneHappy5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.started', text_4.tStartRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.stopped', text_4.tStopRefresh)
     
     # set up handler to look after randomisation of conditions etc
-    oneHFiveN_8 = data.TrialHandler(nReps=1, method='random', 
+    oneHSixN_9 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1happy5Neut.xlsx', selection='42:48'),
-        seed=None, name='oneHFiveN_8')
-    thisExp.addLoop(oneHFiveN_8)  # add the loop to the experiment
-    thisOneHFiveN_8 = oneHFiveN_8.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_8.rgb)
-    if thisOneHFiveN_8 != None:
-        for paramName in thisOneHFiveN_8:
-            exec('{} = thisOneHFiveN_8[paramName]'.format(paramName))
+        trialList=data.importConditions('1happy6Neut.xlsx', selection='49:63'),
+        seed=None, name='oneHSixN_9')
+    thisExp.addLoop(oneHSixN_9)  # add the loop to the experiment
+    thisOneHSixN_9 = oneHSixN_9.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_9.rgb)
+    if thisOneHSixN_9 != None:
+        for paramName in thisOneHSixN_9:
+            exec('{} = thisOneHSixN_9[paramName]'.format(paramName))
     
-    for thisOneHFiveN_8 in oneHFiveN_8:
-        currentLoop = oneHFiveN_8
-        # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_8.rgb)
-        if thisOneHFiveN_8 != None:
-            for paramName in thisOneHFiveN_8:
-                exec('{} = thisOneHFiveN_8[paramName]'.format(paramName))
+    for thisOneHSixN_9 in oneHSixN_9:
+        currentLoop = oneHSixN_9
+        # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_9.rgb)
+        if thisOneHSixN_9 != None:
+            for paramName in thisOneHSixN_9:
+                exec('{} = thisOneHSixN_9[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneHSixN_9.addData('ISI.started', ISI.tStartRefresh)
+        oneHSixN_9.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -10338,7 +10659,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -10366,86 +10687,20 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneHFiveN_8.addData('image_5.started', image_5.tStartRefresh)
-        oneHFiveN_8.addData('image_5.stopped', image_5.tStopRefresh)
+        oneHSixN_9.addData('image_5.started', image_5.tStartRefresh)
+        oneHSixN_9.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneHFiveN_8.addData('text_2.started', text_2.tStartRefresh)
-        oneHFiveN_8.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneHFiveN_8'
+    # completed 1 repeats of 'oneHSixN_9'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -10482,7 +10737,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -10510,30 +10765,95 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
     for thisComponent in blank5sComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    oneHappy5Neutral.addData('text_4.started', text_4.tStartRefresh)
-    oneHappy5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.started', text_4.tStartRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.stopped', text_4.tStopRefresh)
     
     # set up handler to look after randomisation of conditions etc
-    oneHFiveN_9 = data.TrialHandler(nReps=1, method='random', 
+    oneHSixN_10 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1happy5Neut.xlsx', selection='48:54'),
-        seed=None, name='oneHFiveN_9')
-    thisExp.addLoop(oneHFiveN_9)  # add the loop to the experiment
-    thisOneHFiveN_9 = oneHFiveN_9.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_9.rgb)
-    if thisOneHFiveN_9 != None:
-        for paramName in thisOneHFiveN_9:
-            exec('{} = thisOneHFiveN_9[paramName]'.format(paramName))
+        trialList=data.importConditions('1happy6Neut.xlsx', selection='63:77'),
+        seed=None, name='oneHSixN_10')
+    thisExp.addLoop(oneHSixN_10)  # add the loop to the experiment
+    thisOneHSixN_10 = oneHSixN_10.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_10.rgb)
+    if thisOneHSixN_10 != None:
+        for paramName in thisOneHSixN_10:
+            exec('{} = thisOneHSixN_10[paramName]'.format(paramName))
     
-    for thisOneHFiveN_9 in oneHFiveN_9:
-        currentLoop = oneHFiveN_9
-        # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_9.rgb)
-        if thisOneHFiveN_9 != None:
-            for paramName in thisOneHFiveN_9:
-                exec('{} = thisOneHFiveN_9[paramName]'.format(paramName))
+    for thisOneHSixN_10 in oneHSixN_10:
+        currentLoop = oneHSixN_10
+        # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_10.rgb)
+        if thisOneHSixN_10 != None:
+            for paramName in thisOneHSixN_10:
+                exec('{} = thisOneHSixN_10[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneHSixN_10.addData('ISI.started', ISI.tStartRefresh)
+        oneHSixN_10.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -10571,7 +10891,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -10599,86 +10919,20 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneHFiveN_9.addData('image_5.started', image_5.tStartRefresh)
-        oneHFiveN_9.addData('image_5.stopped', image_5.tStopRefresh)
+        oneHSixN_10.addData('image_5.started', image_5.tStartRefresh)
+        oneHSixN_10.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneHFiveN_9.addData('text_2.started', text_2.tStartRefresh)
-        oneHFiveN_9.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneHFiveN_9'
+    # completed 1 repeats of 'oneHSixN_10'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -10715,7 +10969,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -10743,30 +10997,95 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
     for thisComponent in blank5sComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    oneHappy5Neutral.addData('text_4.started', text_4.tStartRefresh)
-    oneHappy5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.started', text_4.tStartRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.stopped', text_4.tStopRefresh)
     
     # set up handler to look after randomisation of conditions etc
-    oneHFiveN_10 = data.TrialHandler(nReps=1, method='random', 
+    oneHSixN_11 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1happy5Neut.xlsx', selection='52:60'),
-        seed=None, name='oneHFiveN_10')
-    thisExp.addLoop(oneHFiveN_10)  # add the loop to the experiment
-    thisOneHFiveN_10 = oneHFiveN_10.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_10.rgb)
-    if thisOneHFiveN_10 != None:
-        for paramName in thisOneHFiveN_10:
-            exec('{} = thisOneHFiveN_10[paramName]'.format(paramName))
+        trialList=data.importConditions('1happy6Neut.xlsx', selection='7:21'),
+        seed=None, name='oneHSixN_11')
+    thisExp.addLoop(oneHSixN_11)  # add the loop to the experiment
+    thisOneHSixN_11 = oneHSixN_11.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_11.rgb)
+    if thisOneHSixN_11 != None:
+        for paramName in thisOneHSixN_11:
+            exec('{} = thisOneHSixN_11[paramName]'.format(paramName))
     
-    for thisOneHFiveN_10 in oneHFiveN_10:
-        currentLoop = oneHFiveN_10
-        # abbreviate parameter names if possible (e.g. rgb = thisOneHFiveN_10.rgb)
-        if thisOneHFiveN_10 != None:
-            for paramName in thisOneHFiveN_10:
-                exec('{} = thisOneHFiveN_10[paramName]'.format(paramName))
+    for thisOneHSixN_11 in oneHSixN_11:
+        currentLoop = oneHSixN_11
+        # abbreviate parameter names if possible (e.g. rgb = thisOneHSixN_11.rgb)
+        if thisOneHSixN_11 != None:
+            for paramName in thisOneHSixN_11:
+                exec('{} = thisOneHSixN_11[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneHSixN_11.addData('ISI.started', ISI.tStartRefresh)
+        oneHSixN_11.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -10804,7 +11123,7 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -10832,86 +11151,89 @@ for thisOneHappy5Neutral in oneHappy5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneHFiveN_10.addData('image_5.started', image_5.tStartRefresh)
-        oneHFiveN_10.addData('image_5.stopped', image_5.tStopRefresh)
+        oneHSixN_11.addData('image_5.started', image_5.tStartRefresh)
+        oneHSixN_11.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneHFiveN_10.addData('text_2.started', text_2.tStartRefresh)
-        oneHFiveN_10.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneHFiveN_10'
+    # completed 1 repeats of 'oneHSixN_11'
     
+    
+    # ------Prepare to start Routine "blank5s"-------
+    routineTimer.add(0.500000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blank5sComponents = [text_4]
+    for thisComponent in blank5sComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blank5sClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank5s"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blank5sClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blank5sClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *text_4* updates
+        if text_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            text_4.frameNStart = frameN  # exact frame index
+            text_4.tStart = t  # local t and not account for scr refresh
+            text_4.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(text_4, 'tStartRefresh')  # time at next scr refresh
+            text_4.setAutoDraw(True)
+        if text_4.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
+                # keep track of stop time/frame for later
+                text_4.tStop = t  # not accounting for scr refresh
+                text_4.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(text_4, 'tStopRefresh')  # time at next scr refresh
+                text_4.setAutoDraw(False)
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blank5sComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank5s"-------
+    for thisComponent in blank5sComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    oneHappy5Neutral_21_trials.addData('text_4.started', text_4.tStartRefresh)
+    oneHappy5Neutral_21_trials.addData('text_4.stopped', text_4.tStopRefresh)
     thisExp.nextEntry()
     
-# completed 1 repeats of 'oneHappy5Neutral'
+# completed 3 repeats of 'oneHappy5Neutral_21_trials'
 
 
 # ------Prepare to start Routine "rest"-------
@@ -11014,26 +11336,91 @@ thisExp.nextEntry()
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-oneSadFiveN = data.TrialHandler(nReps=5, method='random', 
+oneSadSixN = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('1sad5Neutral.xlsx', selection='0:6'),
-    seed=None, name='oneSadFiveN')
-thisExp.addLoop(oneSadFiveN)  # add the loop to the experiment
-thisOneSadFiveN = oneSadFiveN.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN.rgb)
-if thisOneSadFiveN != None:
-    for paramName in thisOneSadFiveN:
-        exec('{} = thisOneSadFiveN[paramName]'.format(paramName))
+    trialList=data.importConditions('1sad6Neutral.xlsx', selection='0:14'),
+    seed=None, name='oneSadSixN')
+thisExp.addLoop(oneSadSixN)  # add the loop to the experiment
+thisOneSadSixN = oneSadSixN.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN.rgb)
+if thisOneSadSixN != None:
+    for paramName in thisOneSadSixN:
+        exec('{} = thisOneSadSixN[paramName]'.format(paramName))
 
-for thisOneSadFiveN in oneSadFiveN:
-    currentLoop = oneSadFiveN
-    # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN.rgb)
-    if thisOneSadFiveN != None:
-        for paramName in thisOneSadFiveN:
-            exec('{} = thisOneSadFiveN[paramName]'.format(paramName))
+for thisOneSadSixN in oneSadSixN:
+    currentLoop = oneSadSixN
+    # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN.rgb)
+    if thisOneSadSixN != None:
+        for paramName in thisOneSadSixN:
+            exec('{} = thisOneSadSixN[paramName]'.format(paramName))
+    
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    oneSadSixN.addData('ISI.started', ISI.tStartRefresh)
+    oneSadSixN.addData('ISI.stopped', ISI.tStopRefresh)
     
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -11071,7 +11458,7 @@ for thisOneSadFiveN in oneSadFiveN:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -11099,86 +11486,20 @@ for thisOneSadFiveN in oneSadFiveN:
     for thisComponent in imageStudyComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    oneSadFiveN.addData('image_5.started', image_5.tStartRefresh)
-    oneSadFiveN.addData('image_5.stopped', image_5.tStopRefresh)
+    oneSadSixN.addData('image_5.started', image_5.tStartRefresh)
+    oneSadSixN.addData('image_5.stopped', image_5.tStopRefresh)
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    oneSadFiveN.addData('text_2.started', text_2.tStartRefresh)
-    oneSadFiveN.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
-# completed 5 repeats of 'oneSadFiveN'
+# completed 1 repeats of 'oneSadSixN'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -11215,7 +11536,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -11247,26 +11568,91 @@ thisExp.addData('text_4.started', text_4.tStartRefresh)
 thisExp.addData('text_4.stopped', text_4.tStopRefresh)
 
 # set up handler to look after randomisation of conditions etc
-oneSadFiveN_2 = data.TrialHandler(nReps=1, method='random', 
+oneSadSixN_2 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('1sad5Neutral.xlsx', selection='6:12'),
-    seed=None, name='oneSadFiveN_2')
-thisExp.addLoop(oneSadFiveN_2)  # add the loop to the experiment
-thisOneSadFiveN_2 = oneSadFiveN_2.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_2.rgb)
-if thisOneSadFiveN_2 != None:
-    for paramName in thisOneSadFiveN_2:
-        exec('{} = thisOneSadFiveN_2[paramName]'.format(paramName))
+    trialList=data.importConditions('1sad6Neutral.xlsx', selection='14:28'),
+    seed=None, name='oneSadSixN_2')
+thisExp.addLoop(oneSadSixN_2)  # add the loop to the experiment
+thisOneSadSixN_2 = oneSadSixN_2.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_2.rgb)
+if thisOneSadSixN_2 != None:
+    for paramName in thisOneSadSixN_2:
+        exec('{} = thisOneSadSixN_2[paramName]'.format(paramName))
 
-for thisOneSadFiveN_2 in oneSadFiveN_2:
-    currentLoop = oneSadFiveN_2
-    # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_2.rgb)
-    if thisOneSadFiveN_2 != None:
-        for paramName in thisOneSadFiveN_2:
-            exec('{} = thisOneSadFiveN_2[paramName]'.format(paramName))
+for thisOneSadSixN_2 in oneSadSixN_2:
+    currentLoop = oneSadSixN_2
+    # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_2.rgb)
+    if thisOneSadSixN_2 != None:
+        for paramName in thisOneSadSixN_2:
+            exec('{} = thisOneSadSixN_2[paramName]'.format(paramName))
+    
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    oneSadSixN_2.addData('ISI.started', ISI.tStartRefresh)
+    oneSadSixN_2.addData('ISI.stopped', ISI.tStopRefresh)
     
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -11304,7 +11690,7 @@ for thisOneSadFiveN_2 in oneSadFiveN_2:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -11332,86 +11718,20 @@ for thisOneSadFiveN_2 in oneSadFiveN_2:
     for thisComponent in imageStudyComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    oneSadFiveN_2.addData('image_5.started', image_5.tStartRefresh)
-    oneSadFiveN_2.addData('image_5.stopped', image_5.tStopRefresh)
+    oneSadSixN_2.addData('image_5.started', image_5.tStartRefresh)
+    oneSadSixN_2.addData('image_5.stopped', image_5.tStopRefresh)
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    oneSadFiveN_2.addData('text_2.started', text_2.tStartRefresh)
-    oneSadFiveN_2.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
-# completed 1 repeats of 'oneSadFiveN_2'
+# completed 1 repeats of 'oneSadSixN_2'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -11448,7 +11768,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -11480,26 +11800,91 @@ thisExp.addData('text_4.started', text_4.tStartRefresh)
 thisExp.addData('text_4.stopped', text_4.tStopRefresh)
 
 # set up handler to look after randomisation of conditions etc
-oneSadFiveN_3 = data.TrialHandler(nReps=5, method='random', 
+oneSadSixN_3 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('1sad5Neutral.xlsx', selection='12:18'),
-    seed=None, name='oneSadFiveN_3')
-thisExp.addLoop(oneSadFiveN_3)  # add the loop to the experiment
-thisOneSadFiveN_3 = oneSadFiveN_3.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_3.rgb)
-if thisOneSadFiveN_3 != None:
-    for paramName in thisOneSadFiveN_3:
-        exec('{} = thisOneSadFiveN_3[paramName]'.format(paramName))
+    trialList=data.importConditions('1sad6Neutral.xlsx', selection='28:42'),
+    seed=None, name='oneSadSixN_3')
+thisExp.addLoop(oneSadSixN_3)  # add the loop to the experiment
+thisOneSadSixN_3 = oneSadSixN_3.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_3.rgb)
+if thisOneSadSixN_3 != None:
+    for paramName in thisOneSadSixN_3:
+        exec('{} = thisOneSadSixN_3[paramName]'.format(paramName))
 
-for thisOneSadFiveN_3 in oneSadFiveN_3:
-    currentLoop = oneSadFiveN_3
-    # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_3.rgb)
-    if thisOneSadFiveN_3 != None:
-        for paramName in thisOneSadFiveN_3:
-            exec('{} = thisOneSadFiveN_3[paramName]'.format(paramName))
+for thisOneSadSixN_3 in oneSadSixN_3:
+    currentLoop = oneSadSixN_3
+    # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_3.rgb)
+    if thisOneSadSixN_3 != None:
+        for paramName in thisOneSadSixN_3:
+            exec('{} = thisOneSadSixN_3[paramName]'.format(paramName))
+    
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    oneSadSixN_3.addData('ISI.started', ISI.tStartRefresh)
+    oneSadSixN_3.addData('ISI.stopped', ISI.tStopRefresh)
     
     # ------Prepare to start Routine "imageStudy"-------
-    routineTimer.add(0.500000)
+    routineTimer.add(0.050000)
     # update component parameters for each repeat
     beginRout = time.time()
     # keep track of which components have finished
@@ -11537,7 +11922,7 @@ for thisOneSadFiveN_3 in oneSadFiveN_3:
             image_5.setAutoDraw(True)
         if image_5.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                 # keep track of stop time/frame for later
                 image_5.tStop = t  # not accounting for scr refresh
                 image_5.frameNStop = frameN  # exact frame index
@@ -11565,86 +11950,20 @@ for thisOneSadFiveN_3 in oneSadFiveN_3:
     for thisComponent in imageStudyComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    oneSadFiveN_3.addData('image_5.started', image_5.tStartRefresh)
-    oneSadFiveN_3.addData('image_5.stopped', image_5.tStopRefresh)
+    oneSadSixN_3.addData('image_5.started', image_5.tStartRefresh)
+    oneSadSixN_3.addData('image_5.stopped', image_5.tStopRefresh)
     print("Duration since Experiment start:", time.time() - beginExp)
     print("Duration since Routine start:" , time.time() - beginRout)
     
-    # ------Prepare to start Routine "blank_5"-------
-    routineTimer.add(0.500000)
-    # update component parameters for each repeat
-    # keep track of which components have finished
-    blank_5Components = [text_2]
-    for thisComponent in blank_5Components:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-    
-    # -------Run Routine "blank_5"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = blank_5Clock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_2* updates
-        if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_2.frameNStart = frameN  # exact frame index
-            text_2.tStart = t  # local t and not account for scr refresh
-            text_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(True)
-        if text_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_2.tStop = t  # not accounting for scr refresh
-                text_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "blank_5"-------
-    for thisComponent in blank_5Components:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    oneSadFiveN_3.addData('text_2.started', text_2.tStartRefresh)
-    oneSadFiveN_3.addData('text_2.stopped', text_2.tStopRefresh)
+    count += 1
+    print("Current Count:" , count)
     thisExp.nextEntry()
     
-# completed 5 repeats of 'oneSadFiveN_3'
+# completed 1 repeats of 'oneSadSixN_3'
 
 
 # ------Prepare to start Routine "blank5s"-------
-routineTimer.add(5.000000)
+routineTimer.add(0.500000)
 # update component parameters for each repeat
 # keep track of which components have finished
 blank5sComponents = [text_4]
@@ -11681,7 +12000,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -11713,7 +12032,239 @@ thisExp.addData('text_4.started', text_4.tStartRefresh)
 thisExp.addData('text_4.stopped', text_4.tStopRefresh)
 
 # set up handler to look after randomisation of conditions etc
-oneSad5Neutral = data.TrialHandler(nReps=1, method='random', 
+oneSadSixN_4 = data.TrialHandler(nReps=1, method='random', 
+    extraInfo=expInfo, originPath=-1,
+    trialList=data.importConditions('1sad6Neutral.xlsx', selection='42:56'),
+    seed=None, name='oneSadSixN_4')
+thisExp.addLoop(oneSadSixN_4)  # add the loop to the experiment
+thisOneSadSixN_4 = oneSadSixN_4.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_4.rgb)
+if thisOneSadSixN_4 != None:
+    for paramName in thisOneSadSixN_4:
+        exec('{} = thisOneSadSixN_4[paramName]'.format(paramName))
+
+for thisOneSadSixN_4 in oneSadSixN_4:
+    currentLoop = oneSadSixN_4
+    # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_4.rgb)
+    if thisOneSadSixN_4 != None:
+        for paramName in thisOneSadSixN_4:
+            exec('{} = thisOneSadSixN_4[paramName]'.format(paramName))
+    
+    # ------Prepare to start Routine "blank"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blankComponents = [ISI]
+    for thisComponent in blankComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blankClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blankClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        # *ISI* period
+        if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            ISI.frameNStart = frameN  # exact frame index
+            ISI.tStart = t  # local t and not account for scr refresh
+            ISI.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+            ISI.start(0.05)
+        elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+            # updating other components during *ISI*
+            image_5.setImage(images)
+            # component updates done
+            ISI.complete()  # finish the static period
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank"-------
+    for thisComponent in blankComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    oneSadSixN_4.addData('ISI.started', ISI.tStartRefresh)
+    oneSadSixN_4.addData('ISI.stopped', ISI.tStopRefresh)
+    
+    # ------Prepare to start Routine "imageStudy"-------
+    routineTimer.add(0.050000)
+    # update component parameters for each repeat
+    beginRout = time.time()
+    # keep track of which components have finished
+    imageStudyComponents = [image_5]
+    for thisComponent in imageStudyComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    imageStudyClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "imageStudy"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = imageStudyClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=imageStudyClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *image_5* updates
+        if image_5.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+            # keep track of start time/frame for later
+            image_5.frameNStart = frameN  # exact frame index
+            image_5.tStart = t  # local t and not account for scr refresh
+            image_5.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(image_5, 'tStartRefresh')  # time at next scr refresh
+            image_5.setAutoDraw(True)
+        if image_5.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
+                # keep track of stop time/frame for later
+                image_5.tStop = t  # not accounting for scr refresh
+                image_5.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(image_5, 'tStopRefresh')  # time at next scr refresh
+                image_5.setAutoDraw(False)
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in imageStudyComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "imageStudy"-------
+    for thisComponent in imageStudyComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    oneSadSixN_4.addData('image_5.started', image_5.tStartRefresh)
+    oneSadSixN_4.addData('image_5.stopped', image_5.tStopRefresh)
+    print("Duration since Experiment start:", time.time() - beginExp)
+    print("Duration since Routine start:" , time.time() - beginRout)
+    
+    count += 1
+    print("Current Count:" , count)
+    thisExp.nextEntry()
+    
+# completed 1 repeats of 'oneSadSixN_4'
+
+
+# ------Prepare to start Routine "blank5s"-------
+routineTimer.add(0.500000)
+# update component parameters for each repeat
+# keep track of which components have finished
+blank5sComponents = [text_4]
+for thisComponent in blank5sComponents:
+    thisComponent.tStart = None
+    thisComponent.tStop = None
+    thisComponent.tStartRefresh = None
+    thisComponent.tStopRefresh = None
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+# reset timers
+t = 0
+_timeToFirstFrame = win.getFutureFlipTime(clock="now")
+blank5sClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+frameN = -1
+continueRoutine = True
+
+# -------Run Routine "blank5s"-------
+while continueRoutine and routineTimer.getTime() > 0:
+    # get current time
+    t = blank5sClock.getTime()
+    tThisFlip = win.getFutureFlipTime(clock=blank5sClock)
+    tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # *text_4* updates
+    if text_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        text_4.frameNStart = frameN  # exact frame index
+        text_4.tStart = t  # local t and not account for scr refresh
+        text_4.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(text_4, 'tStartRefresh')  # time at next scr refresh
+        text_4.setAutoDraw(True)
+    if text_4.status == STARTED:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
+            # keep track of stop time/frame for later
+            text_4.tStop = t  # not accounting for scr refresh
+            text_4.frameNStop = frameN  # exact frame index
+            win.timeOnFlip(text_4, 'tStopRefresh')  # time at next scr refresh
+            text_4.setAutoDraw(False)
+    
+    # check for quit (typically the Esc key)
+    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in blank5sComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "blank5s"-------
+for thisComponent in blank5sComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+thisExp.addData('text_4.started', text_4.tStartRefresh)
+thisExp.addData('text_4.stopped', text_4.tStopRefresh)
+
+# set up handler to look after randomisation of conditions etc
+oneSad5Neutral = data.TrialHandler(nReps=3, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=[None],
     seed=None, name='oneSad5Neutral')
@@ -11732,26 +12283,91 @@ for thisOneSad5Neutral in oneSad5Neutral:
             exec('{} = thisOneSad5Neutral[paramName]'.format(paramName))
     
     # set up handler to look after randomisation of conditions etc
-    oneSadFiveN_4 = data.TrialHandler(nReps=1, method='random', 
+    oneSadSixN_5 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1sad5Neutral.xlsx', selection='18:24'),
-        seed=None, name='oneSadFiveN_4')
-    thisExp.addLoop(oneSadFiveN_4)  # add the loop to the experiment
-    thisOneSadFiveN_4 = oneSadFiveN_4.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_4.rgb)
-    if thisOneSadFiveN_4 != None:
-        for paramName in thisOneSadFiveN_4:
-            exec('{} = thisOneSadFiveN_4[paramName]'.format(paramName))
+        trialList=data.importConditions('1sad6Neutral.xlsx', selection='56:70'),
+        seed=None, name='oneSadSixN_5')
+    thisExp.addLoop(oneSadSixN_5)  # add the loop to the experiment
+    thisOneSadSixN_5 = oneSadSixN_5.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_5.rgb)
+    if thisOneSadSixN_5 != None:
+        for paramName in thisOneSadSixN_5:
+            exec('{} = thisOneSadSixN_5[paramName]'.format(paramName))
     
-    for thisOneSadFiveN_4 in oneSadFiveN_4:
-        currentLoop = oneSadFiveN_4
-        # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_4.rgb)
-        if thisOneSadFiveN_4 != None:
-            for paramName in thisOneSadFiveN_4:
-                exec('{} = thisOneSadFiveN_4[paramName]'.format(paramName))
+    for thisOneSadSixN_5 in oneSadSixN_5:
+        currentLoop = oneSadSixN_5
+        # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_5.rgb)
+        if thisOneSadSixN_5 != None:
+            for paramName in thisOneSadSixN_5:
+                exec('{} = thisOneSadSixN_5[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneSadSixN_5.addData('ISI.started', ISI.tStartRefresh)
+        oneSadSixN_5.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -11789,7 +12405,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -11817,86 +12433,20 @@ for thisOneSad5Neutral in oneSad5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneSadFiveN_4.addData('image_5.started', image_5.tStartRefresh)
-        oneSadFiveN_4.addData('image_5.stopped', image_5.tStopRefresh)
+        oneSadSixN_5.addData('image_5.started', image_5.tStartRefresh)
+        oneSadSixN_5.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneSadFiveN_4.addData('text_2.started', text_2.tStartRefresh)
-        oneSadFiveN_4.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneSadFiveN_4'
+    # completed 1 repeats of 'oneSadSixN_5'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -11933,7 +12483,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -11965,26 +12515,91 @@ for thisOneSad5Neutral in oneSad5Neutral:
     oneSad5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
     
     # set up handler to look after randomisation of conditions etc
-    oneSadFiveN_5 = data.TrialHandler(nReps=1, method='random', 
+    oneSadSixN_6 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1sad5Neutral.xlsx', selection='24:30'),
-        seed=None, name='oneSadFiveN_5')
-    thisExp.addLoop(oneSadFiveN_5)  # add the loop to the experiment
-    thisOneSadFiveN_5 = oneSadFiveN_5.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_5.rgb)
-    if thisOneSadFiveN_5 != None:
-        for paramName in thisOneSadFiveN_5:
-            exec('{} = thisOneSadFiveN_5[paramName]'.format(paramName))
+        trialList=data.importConditions('1sad6Neutral.xlsx', selection='7:21'),
+        seed=None, name='oneSadSixN_6')
+    thisExp.addLoop(oneSadSixN_6)  # add the loop to the experiment
+    thisOneSadSixN_6 = oneSadSixN_6.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_6.rgb)
+    if thisOneSadSixN_6 != None:
+        for paramName in thisOneSadSixN_6:
+            exec('{} = thisOneSadSixN_6[paramName]'.format(paramName))
     
-    for thisOneSadFiveN_5 in oneSadFiveN_5:
-        currentLoop = oneSadFiveN_5
-        # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_5.rgb)
-        if thisOneSadFiveN_5 != None:
-            for paramName in thisOneSadFiveN_5:
-                exec('{} = thisOneSadFiveN_5[paramName]'.format(paramName))
+    for thisOneSadSixN_6 in oneSadSixN_6:
+        currentLoop = oneSadSixN_6
+        # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_6.rgb)
+        if thisOneSadSixN_6 != None:
+            for paramName in thisOneSadSixN_6:
+                exec('{} = thisOneSadSixN_6[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneSadSixN_6.addData('ISI.started', ISI.tStartRefresh)
+        oneSadSixN_6.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -12022,7 +12637,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -12050,86 +12665,20 @@ for thisOneSad5Neutral in oneSad5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneSadFiveN_5.addData('image_5.started', image_5.tStartRefresh)
-        oneSadFiveN_5.addData('image_5.stopped', image_5.tStopRefresh)
+        oneSadSixN_6.addData('image_5.started', image_5.tStartRefresh)
+        oneSadSixN_6.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneSadFiveN_5.addData('text_2.started', text_2.tStartRefresh)
-        oneSadFiveN_5.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneSadFiveN_5'
+    # completed 1 repeats of 'oneSadSixN_6'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -12166,7 +12715,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -12198,26 +12747,91 @@ for thisOneSad5Neutral in oneSad5Neutral:
     oneSad5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
     
     # set up handler to look after randomisation of conditions etc
-    oneSadFiveN_6 = data.TrialHandler(nReps=1, method='random', 
+    oneSadSixN_7 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1sad5Neutral.xlsx', selection='30:36'),
-        seed=None, name='oneSadFiveN_6')
-    thisExp.addLoop(oneSadFiveN_6)  # add the loop to the experiment
-    thisOneSadFiveN_6 = oneSadFiveN_6.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_6.rgb)
-    if thisOneSadFiveN_6 != None:
-        for paramName in thisOneSadFiveN_6:
-            exec('{} = thisOneSadFiveN_6[paramName]'.format(paramName))
+        trialList=data.importConditions('1sad6Neutral.xlsx', selection='21:35'),
+        seed=None, name='oneSadSixN_7')
+    thisExp.addLoop(oneSadSixN_7)  # add the loop to the experiment
+    thisOneSadSixN_7 = oneSadSixN_7.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_7.rgb)
+    if thisOneSadSixN_7 != None:
+        for paramName in thisOneSadSixN_7:
+            exec('{} = thisOneSadSixN_7[paramName]'.format(paramName))
     
-    for thisOneSadFiveN_6 in oneSadFiveN_6:
-        currentLoop = oneSadFiveN_6
-        # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_6.rgb)
-        if thisOneSadFiveN_6 != None:
-            for paramName in thisOneSadFiveN_6:
-                exec('{} = thisOneSadFiveN_6[paramName]'.format(paramName))
+    for thisOneSadSixN_7 in oneSadSixN_7:
+        currentLoop = oneSadSixN_7
+        # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_7.rgb)
+        if thisOneSadSixN_7 != None:
+            for paramName in thisOneSadSixN_7:
+                exec('{} = thisOneSadSixN_7[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneSadSixN_7.addData('ISI.started', ISI.tStartRefresh)
+        oneSadSixN_7.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -12255,7 +12869,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -12283,86 +12897,20 @@ for thisOneSad5Neutral in oneSad5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneSadFiveN_6.addData('image_5.started', image_5.tStartRefresh)
-        oneSadFiveN_6.addData('image_5.stopped', image_5.tStopRefresh)
+        oneSadSixN_7.addData('image_5.started', image_5.tStartRefresh)
+        oneSadSixN_7.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneSadFiveN_6.addData('text_2.started', text_2.tStartRefresh)
-        oneSadFiveN_6.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneSadFiveN_6'
+    # completed 1 repeats of 'oneSadSixN_7'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -12399,7 +12947,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -12431,26 +12979,91 @@ for thisOneSad5Neutral in oneSad5Neutral:
     oneSad5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
     
     # set up handler to look after randomisation of conditions etc
-    oneSadFiveN_7 = data.TrialHandler(nReps=1, method='random', 
+    oneSadSixN_8 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1sad5Neutral.xlsx', selection='36:42'),
-        seed=None, name='oneSadFiveN_7')
-    thisExp.addLoop(oneSadFiveN_7)  # add the loop to the experiment
-    thisOneSadFiveN_7 = oneSadFiveN_7.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_7.rgb)
-    if thisOneSadFiveN_7 != None:
-        for paramName in thisOneSadFiveN_7:
-            exec('{} = thisOneSadFiveN_7[paramName]'.format(paramName))
+        trialList=data.importConditions('1sad6Neutral.xlsx', selection='35:49'),
+        seed=None, name='oneSadSixN_8')
+    thisExp.addLoop(oneSadSixN_8)  # add the loop to the experiment
+    thisOneSadSixN_8 = oneSadSixN_8.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_8.rgb)
+    if thisOneSadSixN_8 != None:
+        for paramName in thisOneSadSixN_8:
+            exec('{} = thisOneSadSixN_8[paramName]'.format(paramName))
     
-    for thisOneSadFiveN_7 in oneSadFiveN_7:
-        currentLoop = oneSadFiveN_7
-        # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_7.rgb)
-        if thisOneSadFiveN_7 != None:
-            for paramName in thisOneSadFiveN_7:
-                exec('{} = thisOneSadFiveN_7[paramName]'.format(paramName))
+    for thisOneSadSixN_8 in oneSadSixN_8:
+        currentLoop = oneSadSixN_8
+        # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_8.rgb)
+        if thisOneSadSixN_8 != None:
+            for paramName in thisOneSadSixN_8:
+                exec('{} = thisOneSadSixN_8[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneSadSixN_8.addData('ISI.started', ISI.tStartRefresh)
+        oneSadSixN_8.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -12488,7 +13101,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -12516,86 +13129,20 @@ for thisOneSad5Neutral in oneSad5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneSadFiveN_7.addData('image_5.started', image_5.tStartRefresh)
-        oneSadFiveN_7.addData('image_5.stopped', image_5.tStopRefresh)
+        oneSadSixN_8.addData('image_5.started', image_5.tStartRefresh)
+        oneSadSixN_8.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneSadFiveN_7.addData('text_2.started', text_2.tStartRefresh)
-        oneSadFiveN_7.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneSadFiveN_7'
+    # completed 1 repeats of 'oneSadSixN_8'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -12632,7 +13179,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -12664,26 +13211,91 @@ for thisOneSad5Neutral in oneSad5Neutral:
     oneSad5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
     
     # set up handler to look after randomisation of conditions etc
-    oneSadFiveN_8 = data.TrialHandler(nReps=1, method='random', 
+    oneSadSixN_9 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1sad5Neutral.xlsx', selection='42:48'),
-        seed=None, name='oneSadFiveN_8')
-    thisExp.addLoop(oneSadFiveN_8)  # add the loop to the experiment
-    thisOneSadFiveN_8 = oneSadFiveN_8.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_8.rgb)
-    if thisOneSadFiveN_8 != None:
-        for paramName in thisOneSadFiveN_8:
-            exec('{} = thisOneSadFiveN_8[paramName]'.format(paramName))
+        trialList=data.importConditions('1sad6Neutral.xlsx', selection='49:63'),
+        seed=None, name='oneSadSixN_9')
+    thisExp.addLoop(oneSadSixN_9)  # add the loop to the experiment
+    thisOneSadSixN_9 = oneSadSixN_9.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_9.rgb)
+    if thisOneSadSixN_9 != None:
+        for paramName in thisOneSadSixN_9:
+            exec('{} = thisOneSadSixN_9[paramName]'.format(paramName))
     
-    for thisOneSadFiveN_8 in oneSadFiveN_8:
-        currentLoop = oneSadFiveN_8
-        # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_8.rgb)
-        if thisOneSadFiveN_8 != None:
-            for paramName in thisOneSadFiveN_8:
-                exec('{} = thisOneSadFiveN_8[paramName]'.format(paramName))
+    for thisOneSadSixN_9 in oneSadSixN_9:
+        currentLoop = oneSadSixN_9
+        # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_9.rgb)
+        if thisOneSadSixN_9 != None:
+            for paramName in thisOneSadSixN_9:
+                exec('{} = thisOneSadSixN_9[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneSadSixN_9.addData('ISI.started', ISI.tStartRefresh)
+        oneSadSixN_9.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -12721,7 +13333,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -12749,86 +13361,20 @@ for thisOneSad5Neutral in oneSad5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneSadFiveN_8.addData('image_5.started', image_5.tStartRefresh)
-        oneSadFiveN_8.addData('image_5.stopped', image_5.tStopRefresh)
+        oneSadSixN_9.addData('image_5.started', image_5.tStartRefresh)
+        oneSadSixN_9.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneSadFiveN_8.addData('text_2.started', text_2.tStartRefresh)
-        oneSadFiveN_8.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneSadFiveN_8'
+    # completed 1 repeats of 'oneSadSixN_9'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -12865,7 +13411,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -12897,26 +13443,91 @@ for thisOneSad5Neutral in oneSad5Neutral:
     oneSad5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
     
     # set up handler to look after randomisation of conditions etc
-    oneSadFiveN_9 = data.TrialHandler(nReps=1, method='random', 
+    oneSadSixN_10 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1sad5Neutral.xlsx', selection='48:54'),
-        seed=None, name='oneSadFiveN_9')
-    thisExp.addLoop(oneSadFiveN_9)  # add the loop to the experiment
-    thisOneSadFiveN_9 = oneSadFiveN_9.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_9.rgb)
-    if thisOneSadFiveN_9 != None:
-        for paramName in thisOneSadFiveN_9:
-            exec('{} = thisOneSadFiveN_9[paramName]'.format(paramName))
+        trialList=data.importConditions('1sad6Neutral.xlsx', selection='0:14'),
+        seed=None, name='oneSadSixN_10')
+    thisExp.addLoop(oneSadSixN_10)  # add the loop to the experiment
+    thisOneSadSixN_10 = oneSadSixN_10.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_10.rgb)
+    if thisOneSadSixN_10 != None:
+        for paramName in thisOneSadSixN_10:
+            exec('{} = thisOneSadSixN_10[paramName]'.format(paramName))
     
-    for thisOneSadFiveN_9 in oneSadFiveN_9:
-        currentLoop = oneSadFiveN_9
-        # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_9.rgb)
-        if thisOneSadFiveN_9 != None:
-            for paramName in thisOneSadFiveN_9:
-                exec('{} = thisOneSadFiveN_9[paramName]'.format(paramName))
+    for thisOneSadSixN_10 in oneSadSixN_10:
+        currentLoop = oneSadSixN_10
+        # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_10.rgb)
+        if thisOneSadSixN_10 != None:
+            for paramName in thisOneSadSixN_10:
+                exec('{} = thisOneSadSixN_10[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneSadSixN_10.addData('ISI.started', ISI.tStartRefresh)
+        oneSadSixN_10.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -12954,7 +13565,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -12982,86 +13593,20 @@ for thisOneSad5Neutral in oneSad5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneSadFiveN_9.addData('image_5.started', image_5.tStartRefresh)
-        oneSadFiveN_9.addData('image_5.stopped', image_5.tStopRefresh)
+        oneSadSixN_10.addData('image_5.started', image_5.tStartRefresh)
+        oneSadSixN_10.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneSadFiveN_9.addData('text_2.started', text_2.tStartRefresh)
-        oneSadFiveN_9.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneSadFiveN_9'
+    # completed 1 repeats of 'oneSadSixN_10'
     
     
     # ------Prepare to start Routine "blank5s"-------
-    routineTimer.add(5.000000)
+    routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
     blank5sComponents = [text_4]
@@ -13098,7 +13643,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
             text_4.setAutoDraw(True)
         if text_4.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + 5.0-frameTolerance:
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
                 # keep track of stop time/frame for later
                 text_4.tStop = t  # not accounting for scr refresh
                 text_4.frameNStop = frameN  # exact frame index
@@ -13130,26 +13675,91 @@ for thisOneSad5Neutral in oneSad5Neutral:
     oneSad5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
     
     # set up handler to look after randomisation of conditions etc
-    oneSadFiveN_10 = data.TrialHandler(nReps=1, method='random', 
+    oneSadSixN_11 = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('1sad5Neutral.xlsx', selection='54:60'),
-        seed=None, name='oneSadFiveN_10')
-    thisExp.addLoop(oneSadFiveN_10)  # add the loop to the experiment
-    thisOneSadFiveN_10 = oneSadFiveN_10.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_10.rgb)
-    if thisOneSadFiveN_10 != None:
-        for paramName in thisOneSadFiveN_10:
-            exec('{} = thisOneSadFiveN_10[paramName]'.format(paramName))
+        trialList=data.importConditions('1sad6Neutral.xlsx', selection='14:28'),
+        seed=None, name='oneSadSixN_11')
+    thisExp.addLoop(oneSadSixN_11)  # add the loop to the experiment
+    thisOneSadSixN_11 = oneSadSixN_11.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_11.rgb)
+    if thisOneSadSixN_11 != None:
+        for paramName in thisOneSadSixN_11:
+            exec('{} = thisOneSadSixN_11[paramName]'.format(paramName))
     
-    for thisOneSadFiveN_10 in oneSadFiveN_10:
-        currentLoop = oneSadFiveN_10
-        # abbreviate parameter names if possible (e.g. rgb = thisOneSadFiveN_10.rgb)
-        if thisOneSadFiveN_10 != None:
-            for paramName in thisOneSadFiveN_10:
-                exec('{} = thisOneSadFiveN_10[paramName]'.format(paramName))
+    for thisOneSadSixN_11 in oneSadSixN_11:
+        currentLoop = oneSadSixN_11
+        # abbreviate parameter names if possible (e.g. rgb = thisOneSadSixN_11.rgb)
+        if thisOneSadSixN_11 != None:
+            for paramName in thisOneSadSixN_11:
+                exec('{} = thisOneSadSixN_11[paramName]'.format(paramName))
+        
+        # ------Prepare to start Routine "blank"-------
+        routineTimer.add(0.050000)
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        blankComponents = [ISI]
+        for thisComponent in blankComponents:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        blankClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        continueRoutine = True
+        
+        # -------Run Routine "blank"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            t = blankClock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=blankClock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            # *ISI* period
+            if ISI.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                ISI.frameNStart = frameN  # exact frame index
+                ISI.tStart = t  # local t and not account for scr refresh
+                ISI.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
+                ISI.start(0.05)
+            elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+                # updating other components during *ISI*
+                image_5.setImage(images)
+                # component updates done
+                ISI.complete()  # finish the static period
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in blankComponents:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "blank"-------
+        for thisComponent in blankComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        oneSadSixN_11.addData('ISI.started', ISI.tStartRefresh)
+        oneSadSixN_11.addData('ISI.stopped', ISI.tStopRefresh)
         
         # ------Prepare to start Routine "imageStudy"-------
-        routineTimer.add(0.500000)
+        routineTimer.add(0.050000)
         # update component parameters for each repeat
         beginRout = time.time()
         # keep track of which components have finished
@@ -13187,7 +13797,7 @@ for thisOneSad5Neutral in oneSad5Neutral:
                 image_5.setAutoDraw(True)
             if image_5.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image_5.tStartRefresh + .5-frameTolerance:
+                if tThisFlipGlobal > image_5.tStartRefresh + .05-frameTolerance:
                     # keep track of stop time/frame for later
                     image_5.tStop = t  # not accounting for scr refresh
                     image_5.frameNStop = frameN  # exact frame index
@@ -13215,86 +13825,89 @@ for thisOneSad5Neutral in oneSad5Neutral:
         for thisComponent in imageStudyComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        oneSadFiveN_10.addData('image_5.started', image_5.tStartRefresh)
-        oneSadFiveN_10.addData('image_5.stopped', image_5.tStopRefresh)
+        oneSadSixN_11.addData('image_5.started', image_5.tStartRefresh)
+        oneSadSixN_11.addData('image_5.stopped', image_5.tStopRefresh)
         print("Duration since Experiment start:", time.time() - beginExp)
         print("Duration since Routine start:" , time.time() - beginRout)
         
-        # ------Prepare to start Routine "blank_5"-------
-        routineTimer.add(0.500000)
-        # update component parameters for each repeat
-        # keep track of which components have finished
-        blank_5Components = [text_2]
-        for thisComponent in blank_5Components:
-            thisComponent.tStart = None
-            thisComponent.tStop = None
-            thisComponent.tStartRefresh = None
-            thisComponent.tStopRefresh = None
-            if hasattr(thisComponent, 'status'):
-                thisComponent.status = NOT_STARTED
-        # reset timers
-        t = 0
-        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-        blank_5Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-        frameN = -1
-        continueRoutine = True
-        
-        # -------Run Routine "blank_5"-------
-        while continueRoutine and routineTimer.getTime() > 0:
-            # get current time
-            t = blank_5Clock.getTime()
-            tThisFlip = win.getFutureFlipTime(clock=blank_5Clock)
-            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-            # update/draw components on each frame
-            
-            # *text_2* updates
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-                # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-                text_2.setAutoDraw(True)
-            if text_2.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > text_2.tStartRefresh + 0.5-frameTolerance:
-                    # keep track of stop time/frame for later
-                    text_2.tStop = t  # not accounting for scr refresh
-                    text_2.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-                    text_2.setAutoDraw(False)
-            
-            # check for quit (typically the Esc key)
-            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-                core.quit()
-            
-            # check if all components have finished
-            if not continueRoutine:  # a component has requested a forced-end of Routine
-                break
-            continueRoutine = False  # will revert to True if at least one component still running
-            for thisComponent in blank_5Components:
-                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                    continueRoutine = True
-                    break  # at least one component has not yet finished
-            
-            # refresh the screen
-            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-                win.flip()
-        
-        # -------Ending Routine "blank_5"-------
-        for thisComponent in blank_5Components:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-        oneSadFiveN_10.addData('text_2.started', text_2.tStartRefresh)
-        oneSadFiveN_10.addData('text_2.stopped', text_2.tStopRefresh)
+        count += 1
+        print("Current Count:" , count)
         thisExp.nextEntry()
         
-    # completed 1 repeats of 'oneSadFiveN_10'
+    # completed 1 repeats of 'oneSadSixN_11'
     
+    
+    # ------Prepare to start Routine "blank5s"-------
+    routineTimer.add(0.500000)
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    blank5sComponents = [text_4]
+    for thisComponent in blank5sComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    blank5sClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    continueRoutine = True
+    
+    # -------Run Routine "blank5s"-------
+    while continueRoutine and routineTimer.getTime() > 0:
+        # get current time
+        t = blank5sClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=blank5sClock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *text_4* updates
+        if text_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            text_4.frameNStart = frameN  # exact frame index
+            text_4.tStart = t  # local t and not account for scr refresh
+            text_4.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(text_4, 'tStartRefresh')  # time at next scr refresh
+            text_4.setAutoDraw(True)
+        if text_4.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > text_4.tStartRefresh + 0.5-frameTolerance:
+                # keep track of stop time/frame for later
+                text_4.tStop = t  # not accounting for scr refresh
+                text_4.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(text_4, 'tStopRefresh')  # time at next scr refresh
+                text_4.setAutoDraw(False)
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in blank5sComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "blank5s"-------
+    for thisComponent in blank5sComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    oneSad5Neutral.addData('text_4.started', text_4.tStartRefresh)
+    oneSad5Neutral.addData('text_4.stopped', text_4.tStopRefresh)
     thisExp.nextEntry()
     
-# completed 1 repeats of 'oneSad5Neutral'
+# completed 3 repeats of 'oneSad5Neutral'
 
 
 # ------Prepare to start Routine "EndScreen"-------
